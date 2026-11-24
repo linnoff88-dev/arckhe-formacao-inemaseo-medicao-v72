@@ -80,7 +80,7 @@
             "Use the non-branded file from lesson 2: it already removes the brand queries."
           ],
           "exemplo": {
-            "rot": "At INEMA (baseline from 09/23/2026)",
+            "rot": "At ARCKHÉ (baseline from 09/23/2026)",
             "texto": "The page /guias/trilha-iniciantes.html had 730 impressions and 4 clicks at position 1.7. The baseline report flagged it as a \"quick title win\"."
           }
         },
@@ -92,7 +92,7 @@
             "If it's almost all branded, the \"weak title\" diagnosis falls apart."
           ],
           "exemplo": {
-            "rot": "At INEMA",
+            "rot": "At ARCKHÉ",
             "texto": "When the page's queries were opened, almost all the impressions came from searches for the brand. The title proposal ended up light: say what the page is, for when topic searches show up. It stayed as a draft, with no result measurement."
           }
         },
@@ -180,7 +180,7 @@
             "Buy an ad for it."
           ],
           "certa": 1,
-          "explica": "At INEMA, the weak-title suspicion fell apart when the queries showed the impressions came from searches for the brand.",
+          "explica": "At ARCKHÉ, the weak-title suspicion fell apart when the queries showed the impressions came from searches for the brand.",
           "ref": "passos",
           "cert": true
         },
@@ -255,8 +255,8 @@
           "icone": "lista"
         },
         {
-          "t": "inemaSEO method: Plan B",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/METODO.md",
+          "t": "ARCKHÉSEO method: Plan B",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/METODO.md",
           "icone": "arquivo"
         }
       ]

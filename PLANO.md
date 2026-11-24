@@ -1,8 +1,8 @@
-# PLANO — inemaSEO 3 · Medição e Rotina: o número que importa é o sem marca (v7.2)
+# PLANO — ARCKHÉSEO 3 · Medição e Rotina: o número que importa é o sem marca (v7.2)
 
-Curso 3 de 6 da Formação inemaSEO. Público: dono de site com páginas no ar (EN: "website owners with pages already live who want to measure SEO honestly"). Ordem: 1 → 2 → 3 → 4 → 5 → 6. `lado_card` → curso 4 `formacao-inemaseo-ias-v72`.
+Curso 3 de 6 da Formação ARCKHÉSEO. Público: dono de site com páginas no ar (EN: "website owners with pages already live who want to measure SEO honestly"). Ordem: 1 → 2 → 3 → 4 → 5 → 6. `lado_card` → curso 4 `formacao-ARCKHÉseo-ias-v72`.
 
-Fontes (não alteradas): `~/projetos/inemaseo-metodo` (METODO etapas 3 e 10, "Multilíngue", "Plano B"; `tools/gsc_semanal.py`, `tools/gsc_inspecionar.py`), `~/projetos/inemaseo` (`data/gsc/resumo.csv`, `reports/baseline-2026-09-23.md`, `reports/semana-2026-09-30.md`, `reports/semana-2026-10-11.md`, `reports/rascunhos/ctr-titulos-3-paginas.md`, `docs/ANALISE_IA_EN_ES.md`, `docs/ESTRATEGIA_REFERENCIA_ECOSSISTEMA.md`, `PROXIMOS_PASSOS.md`), área `eventos.inema.pro/inemaseo/` §05, `~/projetos/inemaseo-sistemas/ferramentas/gsc-historico/README.md`, e a pesquisa `wifi/longrun/2026-10-19-formacao-inemaseo-v72/` (TENDENCIAS §1.3, §3, §5; SISTEMAS §2 GSC). Números do INEMA só da lista "Casos reais" do BRIEF.
+Fontes (não alteradas): `~/projetos/ARCKHÉseo-metodo` (METODO etapas 3 e 10, "Multilíngue", "Plano B"; `tools/gsc_semanal.py`, `tools/gsc_inspecionar.py`), `~/projetos/ARCKHÉseo` (`data/gsc/resumo.csv`, `reports/baseline-2026-09-23.md`, `reports/semana-2026-09-30.md`, `reports/semana-2026-10-11.md`, `reports/rascunhos/ctr-titulos-3-paginas.md`, `docs/ANALISE_IA_EN_ES.md`, `docs/ESTRATEGIA_REFERENCIA_ECOSSISTEMA.md`, `PROXIMOS_PASSOS.md`), área `eventos.ARCKHÉ.pro/ARCKHÉseo/` §05, `~/projetos/ARCKHÉseo-sistemas/ferramentas/gsc-historico/README.md`, e a pesquisa `wifi/longrun/2026-10-19-formacao-ARCKHÉseo-v72/` (TENDENCIAS §1.3, §3, §5; SISTEMAS §2 GSC). Números do ARCKHÉ só da lista "Casos reais" do BRIEF.
 
 ## As 8 aulas
 
@@ -34,9 +34,9 @@ Personagem: dona de loja de cerâmica online (ficção rotulada). Ensina o Plano
 Somas: direto 2+2+2+2 = 8; pelo desvio 1+1+2+2+2 = 8 (não passa). Máximo = 8.
 
 ## Decisões tomadas sozinho
-- Saída do `resumo.csv` real (inemaseo/data/gsc, 16/09–11/10) entra na aula 2 com selo "real"; é a mesma tabela do §2.1.
+- Saída do `resumo.csv` real (ARCKHÉseo/data/gsc, 16/09–11/10) entra na aula 2 com selo "real"; é a mesma tabela do §2.1.
 - Aula 4 conta a lição do rascunho de CTR (a hipótese "título fraco" caiu quando as consultas mostraram que as impressões eram de marca) com os números do §2.2 (730 impressões e 4 cliques na posição 1,7), não com os números de 90 dias do rascunho.
-- Aula 7: referrers do INEMA vêm da ESTRATEGIA (chatgpt.com, perplexity.ai, copilot, gemini); a fatia de cada assistente varia por estudo (63% a 92%), não se compara número de estudos diferentes; "parte cai em Direto" sem número (fonte [incerto]).
+- Aula 7: referrers do ARCKHÉ vêm da ESTRATEGIA (chatgpt.com, perplexity.ai, copilot, gemini); a fatia de cada assistente varia por estudo (63% a 92%), não se compara número de estudos diferentes; "parte cai em Direto" sem número (fonte [incerto]).
 - Aula 8: mensal = bateria de 20–30 perguntas fixas em 4–5 assistentes (régua de 2026), no lugar das "dez perguntas" da área §05. gsc-historico só citado como próximo passo (detalhe é do curso 7).
 
 ## Resultado (19/10/2026)

@@ -20,7 +20,7 @@
       "t": "Leer el resumo.csv semana a semana"
     },
     {
-      "t": "El arco real de INEMA: las impresiones suben, los clics sin marca no"
+      "t": "El arco real de ARCKHÉ: las impresiones suben, los clics sin marca no"
     },
     {
       "t": "Hacer lo mismo a mano cuando no hay credencial"
@@ -101,7 +101,7 @@
             "El resumen.csv solo gana filas; no se borra nada."
           ],
           "exemplo": {
-            "rot": "En INEMA",
+            "rot": "En ARCKHÉ",
             "texto": "Las semanas 27/09–03/10 y 28/09–04/10 comparten seis días. Están las dos en el archivo, pero la comparación usa semanas que no se superponen."
           }
         },
@@ -140,16 +140,16 @@
         "selo": "real",
         "abas": [
           {
-            "rot": "resumo.csv de inema.club",
-            "html": "<table><tr><th>semana</th><th>total</th><th>marca</th><th>sin marca</th><th>anónimas</th><th>consultas sin marca</th></tr><tr><td>16–22/09</td><td>104/437</td><td>79/245</td><td>0/8</td><td>25/184</td><td>3</td></tr><tr><td>24–30/09</td><td>77/820</td><td>57/220</td><td>0/54</td><td>20/546</td><td>29</td></tr><tr><td>27/09–03/10</td><td>87/817</td><td>68/288</td><td>0/55</td><td>19/474</td><td>36</td></tr><tr><td>28/09–04/10</td><td>77/708</td><td>60/253</td><td>0/47</td><td>17/408</td><td>30</td></tr><tr><td>05–11/10</td><td>114/702</td><td>87/238</td><td>0/157</td><td>27/307</td><td>51</td></tr></table><p>Clics/impresiones. Archivo real de inemaSEO (2026).</p>"
+            "rot": "resumo.csv de ARCKHÉ AI",
+            "html": "<table><tr><th>semana</th><th>total</th><th>marca</th><th>sin marca</th><th>anónimas</th><th>consultas sin marca</th></tr><tr><td>16–22/09</td><td>104/437</td><td>79/245</td><td>0/8</td><td>25/184</td><td>3</td></tr><tr><td>24–30/09</td><td>77/820</td><td>57/220</td><td>0/54</td><td>20/546</td><td>29</td></tr><tr><td>27/09–03/10</td><td>87/817</td><td>68/288</td><td>0/55</td><td>19/474</td><td>36</td></tr><tr><td>28/09–04/10</td><td>77/708</td><td>60/253</td><td>0/47</td><td>17/408</td><td>30</td></tr><tr><td>05–11/10</td><td>114/702</td><td>87/238</td><td>0/157</td><td>27/307</td><td>51</td></tr></table><p>Clics/impresiones. Archivo real de ARCKHÉSEO (2026).</p>"
           },
           {
-            "rot": "resumo.csv de inema.pro",
+            "rot": "resumo.csv de ARCKHÉ.pro",
             "html": "<table><tr><th>semana</th><th>total</th><th>marca</th><th>sin marca</th><th>anónimas</th><th>consultas sin marca</th></tr><tr><td>16–22/09</td><td>6/112</td><td>4/61</td><td>0/5</td><td>2/46</td><td>2</td></tr><tr><td>24–30/09</td><td>2/198</td><td>1/67</td><td>0/8</td><td>1/123</td><td>4</td></tr><tr><td>27/09–03/10</td><td>5/232</td><td>4/98</td><td>0/15</td><td>1/119</td><td>9</td></tr><tr><td>28/09–04/10</td><td>4/201</td><td>4/89</td><td>0/14</td><td>0/98</td><td>8</td></tr><tr><td>05–11/10</td><td>11/761</td><td>5/116</td><td><b>2/293</b></td><td>4/352</td><td>52</td></tr></table>"
           },
           {
             "rot": "Cómo leerlo",
-            "html": "<ul><li><b>inema.club</b>: impresiones sin marca de 8 a 157 y consultas sin marca de 3 a 51 en cuatro semanas.</li><li><b>Pero los clics sin marca de club siguen en 0.</b> Gente nueva está viendo el sitio; todavía no está haciendo clic.</li><li><b>inema.pro</b>: los 2 primeros clics sin marca en la semana del 05 al 11/10, de búsquedas como \"curso jev\".</li></ul>"
+            "html": "<ul><li><b>ARCKHÉ AI</b>: impresiones sin marca de 8 a 157 y consultas sin marca de 3 a 51 en cuatro semanas.</li><li><b>Pero los clics sin marca de club siguen en 0.</b> Gente nueva está viendo el sitio; todavía no está haciendo clic.</li><li><b>ARCKHÉ.pro</b>: los 2 primeros clics sin marca en la semana del 05 al 11/10, de búsquedas como \"curso jev\".</li></ul>"
           }
         ]
       }
@@ -182,7 +182,7 @@
       "sub": "La explicación aparece después de tu respuesta.",
       "perguntas": [
         {
-          "p": "Las impresiones sin marca de inema.club pasaron de 8 a 157 en cuatro semanas, y los clics sin marca se quedaron en 0. ¿Qué dice eso?",
+          "p": "Las impresiones sin marca de ARCKHÉ AI pasaron de 8 a 157 en cuatro semanas, y los clics sin marca se quedaron en 0. ¿Qué dice eso?",
           "opcoes": [
             "Que el SEO fracasó.",
             "Que gente nueva empezó a ver el sitio en las búsquedas, pero todavía no hace clic: el siguiente paso es ver posición y título.",
@@ -203,7 +203,7 @@
             "Para gastar menos cuota."
           ],
           "certa": 1,
-          "explica": "Las semanas superpuestas cuentan los mismos días dos veces. En INEMA, 27/09–03/10 y 28/09–04/10 comparten seis días.",
+          "explica": "Las semanas superpuestas cuentan los mismos días dos veces. En ARCKHÉ, 27/09–03/10 y 28/09–04/10 comparten seis días.",
           "ref": "passos"
         },
         {
@@ -242,7 +242,7 @@
         },
         {
           "t": "Primero impresión, después clic",
-          "texto": "Lo sin marca empieza por impresiones. En INEMA, 8 → 157 en cuatro semanas, con 0 clics en el club."
+          "texto": "Lo sin marca empieza por impresiones. En ARCKHÉ, 8 → 157 en cuatro semanas, con 0 clics en el club."
         },
         {
           "t": "Script u hoja de cálculo",
@@ -256,7 +256,7 @@
       "links": [
         {
           "t": "gsc_semanal.py en GitHub",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/tools/gsc_semanal.py",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/tools/gsc_semanal.py",
           "icone": "terminal"
         },
         {
@@ -265,8 +265,8 @@
           "icone": "lupa"
         },
         {
-          "t": "Método inemaSEO",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/METODO.md",
+          "t": "Método ARCKHÉSEO",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/METODO.md",
           "icone": "arquivo"
         }
       ]

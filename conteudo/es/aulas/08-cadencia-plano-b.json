@@ -88,7 +88,7 @@
             "Una decisión por semana basta: cambiar un título, escribir un tema, reforzar una página."
           ],
           "exemplo": {
-            "rot": "En INEMA",
+            "rot": "En ARCKHÉ",
             "texto": "El reporte semanal corre todos los martes por la mañana y solo genera archivos; quien decide y publica es una persona."
           }
         },
@@ -124,7 +124,7 @@
       "sub": "Cambia lo que está entre < > por lo tuyo. Los comandos de gsc-historico son del README de la herramienta; el detalle queda para el curso 7.",
       "blocos": [
         {
-          "rot": "Plan B (método inemaSEO)",
+          "rot": "Plan B (método ARCKHÉSEO)",
           "icone": "lista",
           "conteudo": "| síntoma (día 30–60) | causa probable | qué hacer |\n|---|---|---|\n| pocas páginas indexadas | rastreo, canónico equivocado, página delgada | inspección de URL, enlaces internos, noindex en las delgadas, volver a pedir indexación |\n| indexadas, casi sin impresiones | palabra sin demanda o falta de autoridad | revalidar con datos de Search Console; cambiar el tema; enlaces de vuelta |\n| impresiones sin clics (CTR < 0,5%) | título/descripción débiles | título con promesa específica y número; medir 2 semanas |\n| posición 11–30 estancada | contenido ok, autoridad baja | enlaces externos hacia las ganadoras; secciones nuevas para las consultas que aparecieron |\n| caída general después de publicar mucho | señal de contenido a escala | parar, auditar con el checklist, fusionar/quitar las débiles, cadencia menor |"
         },
@@ -134,7 +134,7 @@
           "conteudo": "Todos los <martes> <9h>: export sin marca + inspección de las URLs clave + 1 decisión (30 min)\nTodos los días <1>: batería de <25> preguntas en <4> asistentes (1 h)\nDía <30> y día <60> después de publicar: leer el síntoma y aplicar el Plan B\nTodos los <viernes>: confirmar que la semana fue a la carpeta de archivo"
         },
         {
-          "rot": "Terminal · siguiente paso: gsc-historico (inemaseo-sistemas)",
+          "rot": "Terminal · siguiente paso: gsc-historico (ARCKHÉseo-sistemas)",
           "icone": "terminal",
           "conteudo": "# importar la carpeta del export semanal (reimportar no duplica)\npython3 gsc_historico.py importar <carpeta-del-gsc_semanal> --db dados/gsc.sqlite\n\n# informe de un sitio: semana actual × anterior\npython3 gsc_historico.py relatorio --db dados/gsc.sqlite --site <seusite.com> --saida saida/<seusite.com>"
         }
@@ -144,7 +144,7 @@
         "abas": [
           {
             "rot": "Rutina mensual (modelo de hoja de cálculo)",
-            "html": "<table><tr><th>fecha</th><th>asistente</th><th>pregunta</th><th>¿citó el sitio?</th><th>dirección</th><th>quién apareció</th></tr><tr><td>01/11</td><td>ChatGPT</td><td>cómo elegir arcilla para principiantes</td><td>no</td><td>-</td><td>tienda X</td></tr><tr><td>01/11</td><td>Perplexity</td><td>cómo elegir arcilla para principiantes</td><td>sí</td><td>/argila-iniciantes/</td><td>-</td></tr></table><p>Ejemplo inventado. En INEMA, la ronda de julio/2026 dio 0 de 48 respuestas neutras en Claude: el cero también es un número que vale la pena guardar.</p>"
+            "html": "<table><tr><th>fecha</th><th>asistente</th><th>pregunta</th><th>¿citó el sitio?</th><th>dirección</th><th>quién apareció</th></tr><tr><td>01/11</td><td>ChatGPT</td><td>cómo elegir arcilla para principiantes</td><td>no</td><td>-</td><td>tienda X</td></tr><tr><td>01/11</td><td>Perplexity</td><td>cómo elegir arcilla para principiantes</td><td>sí</td><td>/argila-iniciantes/</td><td>-</td></tr></table><p>Ejemplo inventado. En ARCKHÉ, la ronda de julio/2026 dio 0 de 48 respuestas neutras en Claude: el cero también es un número que vale la pena guardar.</p>"
           },
           {
             "rot": "Por qué archivar",
@@ -222,7 +222,7 @@
               "t": "Cero clics es un fracaso. Borra las páginas.",
               "vai": "fim-apagou",
               "nota": 0,
-              "comenta": "Tiraste la primera señal. En INEMA, lo sin marca empezó exactamente así: impresiones subiendo y 0 clics."
+              "comenta": "Tiraste la primera señal. En ARCKHÉ, lo sin marca empezó exactamente así: impresiones subiendo y 0 clics."
             }
           ]
         },
@@ -433,7 +433,7 @@
       "tipo": "gerador",
       "titulo": "Genera tu plan con fechas",
       "sub": "Elige la fecha de inicio y cuánto tiempo tienes por semana. El plan respeta los ejercicios que piden espera.",
-      "curso": "inemaSEO 3 · Medición y Rutina",
+      "curso": "ARCKHÉSEO 3 · Medición y Rutina",
       "horas_padrao": 2,
       "degraus": [
         {
@@ -470,7 +470,7 @@
         }
       ],
       "txt": {
-        "titulo": "Plan — inemaSEO 3 · Medición y Rutina",
+        "titulo": "Plan — ARCKHÉSEO 3 · Medición y Rutina",
         "inicio": "Inicio",
         "ritmo": "Ritmo",
         "termino": "Finalización prevista",
@@ -506,22 +506,22 @@
       "links": [
         {
           "t": "gsc-historico: el Search Console guardado para siempre",
-          "href": "https://github.com/inematds/inemaseo-sistemas/tree/main/ferramentas/gsc-historico",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-sistemas/tree/main/ferramentas/gsc-historico",
           "icone": "pasta"
         },
         {
-          "t": "inemaseo-sistemas (herramientas abiertas)",
-          "href": "https://github.com/inematds/inemaseo-sistemas",
+          "t": "ARCKHÉseo-sistemas (herramientas abiertas)",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-sistemas",
           "icone": "git"
         },
         {
-          "t": "Método inemaSEO: Plan B",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/METODO.md",
+          "t": "Método ARCKHÉSEO: Plan B",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/METODO.md",
           "icone": "arquivo"
         },
         {
-          "t": "Siguiente: inemaSEO 4 · En las IAs",
-          "href": "https://inematds.github.io/formacao-inemaseo-ias-v72/",
+          "t": "Siguiente: ARCKHÉSEO 4 · En las IAs",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "seta"
         }
       ]

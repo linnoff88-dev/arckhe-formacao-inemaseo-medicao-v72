@@ -94,8 +94,8 @@
             "One well-chosen goal is worth more than ten events nobody looks at."
           ],
           "exemplo": {
-            "rot": "At INEMA",
-            "texto": "The method includes the \"Join the community\" event with the source page. In INEMA's analytics (Plausible), this goal was still listed as pending in October 2026. The goal is the part that most often gets pushed back; put it on your calendar."
+            "rot": "At ARCKHÉ",
+            "texto": "The method includes the \"Join the community\" event with the source page. In ARCKHÉ's analytics (Plausible), this goal was still listed as pending in October 2026. The goal is the part that most often gets pushed back; put it on your calendar."
           }
         },
         {
@@ -269,8 +269,8 @@
           "icone": "alvo"
         },
         {
-          "t": "inemaSEO method: step 3",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/METODO.md",
+          "t": "ARCKHÉSEO method: step 3",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/METODO.md",
           "icone": "arquivo"
         }
       ]

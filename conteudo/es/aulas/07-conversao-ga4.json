@@ -94,8 +94,8 @@
             "Una meta bien elegida vale más que diez eventos que nadie mira."
           ],
           "exemplo": {
-            "rot": "En INEMA",
-            "texto": "El método prevé el evento \"Entrar a la comunidad\" con la página de origen. En el analytics de INEMA (Plausible), esa meta todavía aparecía como pendiente en octubre/2026. La meta es la parte que más se deja para después; ponla en tu agenda."
+            "rot": "En ARCKHÉ",
+            "texto": "El método prevé el evento \"Entrar a la comunidad\" con la página de origen. En el analytics de ARCKHÉ (Plausible), esa meta todavía aparecía como pendiente en octubre/2026. La meta es la parte que más se deja para después; ponla en tu agenda."
           }
         },
         {
@@ -269,8 +269,8 @@
           "icone": "alvo"
         },
         {
-          "t": "Método inemaSEO: etapa 3",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/METODO.md",
+          "t": "Método ARCKHÉSEO: etapa 3",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/METODO.md",
           "icone": "arquivo"
         }
       ]

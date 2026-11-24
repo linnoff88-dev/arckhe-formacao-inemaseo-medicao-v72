@@ -5,7 +5,7 @@
   "titulo": "Linha de base: por que quase todo clique é da marca",
   "titulo_curto": "Linha de base",
   "minutos": 15,
-  "lead": "O total de cliques do Search Console engana. No começo, quase todo clique vem de quem já digitou o seu nome. Esse clique é bom, mas não mostra se o SEO funciona. Nesta aula você tira a linha de base de 28 dias e separa a marca do resto, como o INEMA fez em setembro de 2026.",
+  "lead": "O total de cliques do Search Console engana. No começo, quase todo clique vem de quem já digitou o seu nome. Esse clique é bom, mas não mostra se o SEO funciona. Nesta aula você tira a linha de base de 28 dias e separa a marca do resto, como o ARCKHÉ fez em setembro de 2026.",
   "objetivo": "tirar a linha de base de 28 dias e separar quanto dos cliques vem de quem já procura o seu nome.",
   "competencias": ["tirar-linha-de-base", "separar-marca-de-sem-marca", "ler-consultas-anonimas"],
   "aprende": [
@@ -45,7 +45,7 @@
          "texto": ["Troque o filtro para \"não corresponde\" à mesma regex. Anote de novo.", "Some marca e sem marca e tire do total: o que sobra são as anônimas."]},
         {"titulo": "O registro", "sub": "data e números",
          "texto": ["Guarde os números numa planilha com a data da janela. Daqui a quatro semanas você compara a mesma janela de 28 dias.", "Sem o registro, a melhora vira impressão pessoal."],
-         "exemplo": {"rot": "No INEMA (base de 25/08 a 21/09/2026)", "texto": "O inema.club teve 787 cliques e CTR de 34%. Parecia ótimo. Mas 639 de 647 cliques das buscas principais eram de marca; as buscas genéricas somavam 8 cliques e 72 impressões."}}
+         "exemplo": {"rot": "No ARCKHÉ (base de 25/08 a 21/09/2026)", "texto": "O ARCKHÉ AI teve 787 cliques e CTR de 34%. Parecia ótimo. Mas 639 de 647 cliques das buscas principais eram de marca; as buscas genéricas somavam 8 cliques e 72 impressões."}}
       ]
     },
     {
@@ -54,14 +54,14 @@
       "sub": "Troque o que está entre < > pelo seu.",
       "blocos": [
         {"rot": "Regex da marca (filtro de Consulta, regex personalizada)", "icone": "lupa",
-         "conteudo": "<seunome>|<seusite>|<seu site>|<erro comum de digitação>\n\n# exemplo do INEMA: qualquer busca que contenha a palavra\ninema"},
+         "conteudo": "<seunome>|<seusite>|<seu site>|<erro comum de digitação>\n\n# exemplo do ARCKHÉ: qualquer busca que contenha a palavra\nARCKHÉ"},
         {"rot": "Planilha da linha de base (modelo)", "icone": "lista",
          "conteudo": "| janela | total (cliques/impr.) | marca | sem marca | anônimas | CTR | posição |\n|---|---|---|---|---|---|---|\n| <dd/mm> a <dd/mm> | <c>/<i> | <c>/<i> | <c>/<i> | <c>/<i> | <%> | <n> |"}
       ],
       "saida": {
         "selo": "real",
         "abas": [
-          {"rot": "Base do INEMA (relatório de 23/09/2026)", "html": "<table><tr><th>propriedade</th><th>cliques</th><th>impressões</th><th>CTR</th><th>posição</th></tr><tr><td>inema.club</td><td>787</td><td>2.301</td><td>34%</td><td>5,2</td></tr><tr><td>inema.pro</td><td>42</td><td>649</td><td>6,5%</td><td>8,5</td></tr></table><p>Janela de 28 dias, 25/08 a 21/09/2026. Nas buscas principais, 639 de 647 cliques eram de marca. Buscas genéricas: 8 cliques e 72 impressões.</p>"},
+          {"rot": "Base do ARCKHÉ (relatório de 23/09/2026)", "html": "<table><tr><th>propriedade</th><th>cliques</th><th>impressões</th><th>CTR</th><th>posição</th></tr><tr><td>ARCKHÉ AI</td><td>787</td><td>2.301</td><td>34%</td><td>5,2</td></tr><tr><td>ARCKHÉ.pro</td><td>42</td><td>649</td><td>6,5%</td><td>8,5</td></tr></table><p>Janela de 28 dias, 25/08 a 21/09/2026. Nas buscas principais, 639 de 647 cliques eram de marca. Buscas genéricas: 8 cliques e 72 impressões.</p>"},
           {"rot": "Como ler", "html": "<ul><li><b>CTR de 34%</b> é alto porque quem busca o nome clica no próprio site.</li><li><b>8 cliques sem marca</b> em 28 dias: esse é o ponto de partida real.</li><li>Meta da base: medir só o sem marca, porque a marca domina o total e esconde o efeito das páginas novas.</li></ul>"}
         ]
       }
@@ -86,13 +86,13 @@
       "perguntas": [
         {"p": "O site tem CTR de 34% e posição média 5,2. O SEO está funcionando?",
          "opcoes": ["Sim, CTR alto prova que funciona.", "Não dá para saber sem separar a marca: quem busca o seu nome clica no seu site.", "Não, CTR acima de 30% é erro.", "Só se a posição for 1."],
-         "certa": 1, "explica": "No INEMA, CTR de 34% convivia com 8 cliques sem marca em 28 dias. O total mistura quem já te conhecia.", "ref": "passos", "cert": true},
+         "certa": 1, "explica": "No ARCKHÉ, CTR de 34% convivia com 8 cliques sem marca em 28 dias. O total mistura quem já te conhecia.", "ref": "passos", "cert": true},
         {"p": "Por que marca + sem marca não fecha com o total?",
          "opcoes": ["Erro do painel.", "As consultas raras ficam escondidas da tabela, mas entram no total: são as anônimas.", "Porque o Bing soma junto.", "Porque o CTR é arredondado."],
          "certa": 1, "explica": "O Google anonimiza consultas raras. Elas contam no total e somem do filtro por consulta.", "ref": "diagrama"},
         {"p": "O que entra na regex da marca?",
          "opcoes": ["Só o domínio exato.", "Nome, domínio, variações e erros de digitação comuns.", "As palavras do seu assunto.", "Os nomes dos concorrentes."],
-         "certa": 1, "explica": "Quem digita \"inema clube\" está procurando a marca. Se a variação fica de fora, a marca vaza para o balde sem marca e infla o número.", "ref": "codigo"},
+         "certa": 1, "explica": "Quem digita \"ARCKHÉ clube\" está procurando a marca. Se a variação fica de fora, a marca vaza para o balde sem marca e infla o número.", "ref": "codigo"},
         {"p": "Para comparar daqui a um mês, o que você precisa guardar?",
          "opcoes": ["Uma captura de tela do gráfico.", "A data da janela e os números dos três baldes, na mesma janela de 28 dias.", "Só o total de cliques.", "Nada: o painel guarda para sempre."],
          "certa": 1, "explica": "Mesma janela, mesmos baldes. E o painel não guarda para sempre: o histórico some em cerca de 16 meses (aula 8).", "ref": "passos"}
@@ -111,9 +111,9 @@
       "tipo": "links",
       "titulo": "Para ir além",
       "links": [
-        {"t": "Método inemaSEO, etapa 3: medição que separa a marca", "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/METODO.md", "icone": "arquivo"},
+        {"t": "Método ARCKHÉSEO, etapa 3: medição que separa a marca", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/METODO.md", "icone": "arquivo"},
         {"t": "Search Console: relatório de desempenho (ajuda do Google)", "href": "https://support.google.com/webmasters/answer/7576553", "icone": "grafico"},
-        {"t": "Área inemaSEO no Eventos", "href": "https://eventos.inema.pro/inemaseo/", "icone": "camadas"}
+        {"t": "Área ARCKHÉSEO no Eventos", "href": "https://eventos.ARCKHÉ.pro/ARCKHÉseo/", "icone": "camadas"}
       ]
     }
   ]

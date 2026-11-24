@@ -41,10 +41,10 @@
       "passos": [
         {"titulo": "A suspeita", "sub": "lista de páginas",
          "texto": ["Liste as páginas com mais impressões e CTR baixo nos últimos 28 dias.", "Use o arquivo sem-marca da aula 2: ele já tira as consultas da marca."],
-         "exemplo": {"rot": "No INEMA (base de 23/09/2026)", "texto": "A página /guias/trilha-iniciantes.html tinha 730 impressões e 4 cliques na posição 1,7. O relatório de base marcou como \"ganho rápido de título\"."}},
+         "exemplo": {"rot": "No ARCKHÉ (base de 23/09/2026)", "texto": "A página /guias/trilha-iniciantes.html tinha 730 impressões e 4 cliques na posição 1,7. O relatório de base marcou como \"ganho rápido de título\"."}},
         {"titulo": "As consultas", "sub": "o diagnóstico muda",
          "texto": ["Filtre pela página e leia as consultas. Some quanto é marca.", "Se é quase tudo marca, o diagnóstico \"título fraco\" cai."],
-         "exemplo": {"rot": "No INEMA", "texto": "Quando as consultas da página foram abertas, quase todas as impressões eram de buscas pela marca. A proposta de título ficou leve: dizer o que a página é, para quando aparecerem buscas de assunto. Ela ficou como rascunho, sem medição de resultado."}},
+         "exemplo": {"rot": "No ARCKHÉ", "texto": "Quando as consultas da página foram abertas, quase todas as impressões eram de buscas pela marca. A proposta de título ficou leve: dizer o que a página é, para quando aparecerem buscas de assunto. Ela ficou como rascunho, sem medição de resultado."}},
         {"titulo": "A reescrita", "sub": "promessa específica",
          "texto": ["Título: o que a pessoa ganha, com número ou recorte concreto, em até uns 60 caracteres. Descrição: o que tem na página, em uma ou duas frases.", "Nada de prometer o que a página não entrega."]},
         {"titulo": "A medição", "sub": "duas semanas",
@@ -89,7 +89,7 @@
       "perguntas": [
         {"p": "Uma página tem 730 impressões e 4 cliques na posição 1,7. Qual o primeiro passo?",
          "opcoes": ["Reescrever o título hoje.", "Abrir as consultas da página e ver se as impressões são de marca ou de assunto.", "Apagar a página.", "Comprar anúncio para ela."],
-         "certa": 1, "explica": "No INEMA, a suspeita de título fraco caiu quando as consultas mostraram que as impressões eram de buscas pela marca.", "ref": "passos", "cert": true},
+         "certa": 1, "explica": "No ARCKHÉ, a suspeita de título fraco caiu quando as consultas mostraram que as impressões eram de buscas pela marca.", "ref": "passos", "cert": true},
         {"p": "As consultas da página são de assunto, mas a posição é 38. Trocar o título resolve?",
          "opcoes": ["Sim, sempre.", "Não: na posição 38 quase ninguém vê o título; o problema é autoridade e conteúdo.", "Sim, se tiver emoji.", "Só se for curto."],
          "certa": 1, "explica": "Título pesa na primeira página. Mais longe, o caminho é o Plano B da aula 8: links de volta e seções para as consultas que apareceram.", "ref": "diagrama"},
@@ -116,7 +116,7 @@
       "links": [
         {"t": "Google: links de título nos resultados (inglês)", "href": "https://developers.google.com/search/docs/appearance/title-link", "icone": "caneta"},
         {"t": "Google: snippets e meta description (inglês)", "href": "https://developers.google.com/search/docs/appearance/snippet", "icone": "lista"},
-        {"t": "Método inemaSEO: Plano B", "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/METODO.md", "icone": "arquivo"}
+        {"t": "Método ARCKHÉSEO: Plano B", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/METODO.md", "icone": "arquivo"}
       ]
     }
   ]

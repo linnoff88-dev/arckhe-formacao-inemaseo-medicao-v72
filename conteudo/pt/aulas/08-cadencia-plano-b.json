@@ -44,7 +44,7 @@
       "passos": [
         {"titulo": "Semanal", "sub": "mesmo dia",
          "texto": ["Escolha um dia e uma hora fixos. Rode o export (ou a planilha), inspecione as URLs-chave e anote uma decisão.", "Uma decisão por semana basta: trocar um título, escrever uma pauta, reforçar uma página."],
-         "exemplo": {"rot": "No INEMA", "texto": "O relatório semanal roda toda terça de manhã e só gera arquivos; quem decide e publica é uma pessoa."}},
+         "exemplo": {"rot": "No ARCKHÉ", "texto": "O relatório semanal roda toda terça de manhã e só gera arquivos; quem decide e publica é uma pessoa."}},
         {"titulo": "Mensal", "sub": "a bateria",
          "texto": ["Rode as mesmas 20 a 30 perguntas nos mesmos assistentes, em janela anônima, e anote se o seu site aparece, com qual endereço e quem aparece no lugar.", "Ferramenta paga de \"share of voice\" é amostra, não nota oficial. Modelo local não mede o que as IAs reais respondem."]},
         {"titulo": "Plano B", "sub": "dia 30 a 60",
@@ -58,17 +58,17 @@
       "titulo": "A tabela do Plano B, a agenda e o arquivo",
       "sub": "Troque o que está entre < > pelo seu. Os comandos do gsc-historico são do README da ferramenta; o detalhe dela fica para o curso 7.",
       "blocos": [
-        {"rot": "Plano B (método inemaSEO)", "icone": "lista",
+        {"rot": "Plano B (método ARCKHÉSEO)", "icone": "lista",
          "conteudo": "| sintoma (dia 30–60) | causa provável | o que fazer |\n|---|---|---|\n| poucas páginas indexadas | rastreio, canônico errado, página rasa | inspeção de URL, links internos, noindex nas rasas, pedir indexação de novo |\n| indexadas, quase sem impressão | palavra sem demanda ou falta de autoridade | revalidar com dados do Search Console; trocar o tema; links de volta |\n| impressão sem clique (CTR < 0,5%) | título/descrição fracos | título com promessa específica e número; medir 2 semanas |\n| posição 11–30 parada | conteúdo ok, autoridade baixa | links externos para as vencedoras; seções novas para as consultas que apareceram |\n| queda geral depois de publicar muito | sinal de conteúdo em escala | parar, auditar com o checklist, fundir/remover as fracas, cadência menor |"},
         {"rot": "Agenda (modelo)", "icone": "calendario",
          "conteudo": "Toda <terça> <9h>: export sem marca + inspeção das URLs-chave + 1 decisão (30 min)\nTodo dia <1>: bateria de <25> perguntas em <4> assistentes (1 h)\nDia <30> e dia <60> depois de publicar: ler o sintoma e aplicar o Plano B\nToda <sexta>: conferir que a semana foi para a pasta de arquivo"},
-        {"rot": "Terminal · próximo passo: gsc-historico (inemaseo-sistemas)", "icone": "terminal",
+        {"rot": "Terminal · próximo passo: gsc-historico (ARCKHÉseo-sistemas)", "icone": "terminal",
          "conteudo": "# importar a pasta do export semanal (reimportar não duplica)\npython3 gsc_historico.py importar <pasta-do-gsc_semanal> --db dados/gsc.sqlite\n\n# relatório de um site: semana atual × anterior\npython3 gsc_historico.py relatorio --db dados/gsc.sqlite --site <seusite.com> --saida saida/<seusite.com>"}
       ],
       "saida": {
         "selo": "simulacao",
         "abas": [
-          {"rot": "Bateria mensal (modelo de planilha)", "html": "<table><tr><th>data</th><th>assistente</th><th>pergunta</th><th>citou o site?</th><th>endereço</th><th>quem apareceu</th></tr><tr><td>01/11</td><td>ChatGPT</td><td>como escolher argila para iniciantes</td><td>não</td><td>-</td><td>loja X</td></tr><tr><td>01/11</td><td>Perplexity</td><td>como escolher argila para iniciantes</td><td>sim</td><td>/argila-iniciantes/</td><td>-</td></tr></table><p>Exemplo inventado. No INEMA, a rodada de julho/2026 deu 0 de 48 respostas neutras no Claude: o zero também é um número para guardar.</p>"},
+          {"rot": "Bateria mensal (modelo de planilha)", "html": "<table><tr><th>data</th><th>assistente</th><th>pergunta</th><th>citou o site?</th><th>endereço</th><th>quem apareceu</th></tr><tr><td>01/11</td><td>ChatGPT</td><td>como escolher argila para iniciantes</td><td>não</td><td>-</td><td>loja X</td></tr><tr><td>01/11</td><td>Perplexity</td><td>como escolher argila para iniciantes</td><td>sim</td><td>/argila-iniciantes/</td><td>-</td></tr></table><p>Exemplo inventado. No ARCKHÉ, a rodada de julho/2026 deu 0 de 48 respostas neutras no Claude: o zero também é um número para guardar.</p>"},
           {"rot": "Por que arquivar", "html": "<ul><li>O Search Console guarda uns 16 meses de desempenho.</li><li>Sem arquivo, em 2028 você não consegue comparar com 2026.</li><li>O gsc-historico usa o mesmo formato do gsc_semanal.py e nunca apaga nada.</li></ul>"}
         ]
       }
@@ -108,7 +108,7 @@
             {"t": "Então troque todos os títulos hoje.", "vai": "posicao", "nota": 1,
              "comenta": "Pode ser a resposta, mas sem ver consultas e posição é chute. E trocar tudo junto impede medir."},
             {"t": "Zero clique é fracasso. Apague as páginas.", "vai": "fim-apagou", "nota": 0,
-             "comenta": "Você jogou fora o primeiro sinal. No INEMA, o sem marca começou exatamente assim: impressões subindo e 0 clique."}
+             "comenta": "Você jogou fora o primeiro sinal. No ARCKHÉ, o sem marca começou exatamente assim: impressões subindo e 0 clique."}
           ]
         },
         "posicao": {
@@ -190,7 +190,7 @@
       "tipo": "gerador",
       "titulo": "Gere o seu plano com datas",
       "sub": "Escolha a data de início e quanto tempo você tem por semana. O plano respeita os exercícios que pedem espera.",
-      "curso": "inemaSEO 3 · Medição e Rotina",
+      "curso": "ARCKHÉSEO 3 · Medição e Rotina",
       "horas_padrao": 2,
       "degraus": [
         {"titulo": "Aula 1 · Linha de base", "aula": "linha-de-base"},
@@ -202,7 +202,7 @@
         {"titulo": "Aula 7 · Conversão e IA no GA4", "aula": "conversao-ga4"},
         {"titulo": "Aula 8 · Cadência e Plano B", "aula": "cadencia-plano-b"}
       ],
-      "txt": {"titulo": "Plano — inemaSEO 3 · Medição e Rotina", "inicio": "Início", "ritmo": "Ritmo", "termino": "Término previsto", "ate": "até", "pronto": "pronto quando", "semanas": "semanas", "travou": "## O que travou e o que eu decidi", "h": "h por semana", "exs": "exercícios"}
+      "txt": {"titulo": "Plano — ARCKHÉSEO 3 · Medição e Rotina", "inicio": "Início", "ritmo": "Ritmo", "termino": "Término previsto", "ate": "até", "pronto": "pronto quando", "semanas": "semanas", "travou": "## O que travou e o que eu decidi", "h": "h por semana", "exs": "exercícios"}
     },
     {
       "tipo": "resumo",
@@ -217,10 +217,10 @@
       "tipo": "links",
       "titulo": "Para ir além",
       "links": [
-        {"t": "gsc-historico: o Search Console guardado para sempre", "href": "https://github.com/inematds/inemaseo-sistemas/tree/main/ferramentas/gsc-historico", "icone": "pasta"},
-        {"t": "inemaseo-sistemas (ferramentas abertas)", "href": "https://github.com/inematds/inemaseo-sistemas", "icone": "git"},
-        {"t": "Método inemaSEO: Plano B", "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/METODO.md", "icone": "arquivo"},
-        {"t": "Próximo: inemaSEO 4 · Nas IAs", "href": "https://inematds.github.io/formacao-inemaseo-ias-v72/", "icone": "seta"}
+        {"t": "gsc-historico: o Search Console guardado para sempre", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-sistemas/tree/main/ferramentas/gsc-historico", "icone": "pasta"},
+        {"t": "ARCKHÉseo-sistemas (ferramentas abertas)", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-sistemas", "icone": "git"},
+        {"t": "Método ARCKHÉSEO: Plano B", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/METODO.md", "icone": "arquivo"},
+        {"t": "Próximo: ARCKHÉSEO 4 · Nas IAs", "href": "https://linnoff88-dev.github.io/ "icone": "seta"}
       ]
     }
   ]

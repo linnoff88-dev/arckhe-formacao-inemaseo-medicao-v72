@@ -5,7 +5,7 @@
   "titulo": "Multilingüe como palanca: el caso del español",
   "titulo_curto": "El caso del español",
   "minutos": 17,
-  "lead": "En español la competencia suele ser menor y la demanda es grande. En INEMA, la página de aprender IA en español fue indexada el 03/10/2026 y, la semana siguiente, ya aparecía en consultas que la versión en portugués no alcanzaba. En esta clase decides con datos si una página merece otro idioma, y cómo hacerlo sin caer en la traducción masiva.",
+  "lead": "En español la competencia suele ser menor y la demanda es grande. En ARCKHÉ, la página de aprender IA en español fue indexada el 03/10/2026 y, la semana siguiente, ya aparecía en consultas que la versión en portugués no alcanzaba. En esta clase decides con datos si una página merece otro idioma, y cómo hacerlo sin caer en la traducción masiva.",
   "objetivo": "decidir, con países y consultas reales, si una página ganadora merece una versión en otro idioma, y planificar esa versión revisada.",
   "competencias": [
     "ler-paises-no-search-console",
@@ -17,7 +17,7 @@
       "t": "Leer países e idiomas en Search Console"
     },
     {
-      "t": "Lo que el español mostró en INEMA (y lo que todavía no mostró)"
+      "t": "Lo que el español mostró en ARCKHÉ (y lo que todavía no mostró)"
     },
     {
       "t": "Traducción no es investigación de palabras clave"
@@ -81,7 +81,7 @@
             "Pocas impresiones de afuera no son demanda lista; son una señal para probar con una página."
           ],
           "exemplo": {
-            "rot": "En INEMA (base del 25/08 al 21/09/2026)",
+            "rot": "En ARCKHÉ (base del 25/08 al 21/09/2026)",
             "texto": "Impresiones por país: Brasil 1.449, Portugal 106, Argentina 24, Uruguay 13. Una señal pequeña, pero de gente que habla español."
           }
         },
@@ -93,7 +93,7 @@
             "Una página bien revisada vale más que diez traducidas de cualquier manera."
           ],
           "exemplo": {
-            "rot": "En INEMA",
+            "rot": "En ARCKHÉ",
             "texto": "El 30/09/2026, las consultas objetivo en portugués estaban entre las posiciones 23 y 69, con 0 clics. La página /es/aprender-inteligencia-artificial/ fue indexada el 03/10; a la semana siguiente tenía de 5 a 10 impresiones en cada consulta en español, en las posiciones 29 a 61."
           }
         },
@@ -101,7 +101,7 @@
           "titulo": "La lectura honesta",
           "sub": "lo que aún falta",
           "texto": [
-            "Una impresión en español no es un clic ni una conversión. En INEMA, el caso muestra que el idioma abrió una puerta; el clic todavía no llegó.",
+            "Una impresión en español no es un clic ni una conversión. En ARCKHÉ, el caso muestra que el idioma abrió una puerta; el clic todavía no llegó.",
             "Mide la versión nueva en el mismo export semanal, separada por página."
           ]
         },
@@ -135,12 +135,12 @@
         "selo": "real",
         "abas": [
           {
-            "rot": "Países de INEMA (28 días hasta el 21/09/2026)",
+            "rot": "Países de ARCKHÉ (28 días hasta el 21/09/2026)",
             "html": "<table><tr><th>país</th><th>impresiones</th></tr><tr><td>Brasil</td><td>1.449</td></tr><tr><td>Portugal</td><td>106</td></tr><tr><td>Argentina</td><td>24</td></tr><tr><td>Uruguay</td><td>13</td></tr></table><p>Del informe de línea base del 23/09/2026.</p>"
           },
           {
             "rot": "Lo que vino después",
-            "html": "<ul><li>03/10: página ES de aprender IA indexada.</li><li>Semana del 05 al 11/10: \"aprender ia\" 10 impresiones, \"aprender inteligencia artificial desde cero\" 10, \"cómo aprender ia\" 8, posiciones 29 a 61.</li><li>Clics sin marca de inema.club en la misma semana: 0.</li></ul>"
+            "html": "<ul><li>03/10: página ES de aprender IA indexada.</li><li>Semana del 05 al 11/10: \"aprender ia\" 10 impresiones, \"aprender inteligencia artificial desde cero\" 10, \"cómo aprender ia\" 8, posiciones 29 a 61.</li><li>Clics sin marca de ARCKHÉ AI en la misma semana: 0.</li></ul>"
           }
         ]
       }
@@ -172,7 +172,7 @@
       "sub": "La explicación aparece después de tu respuesta.",
       "perguntas": [
         {
-          "p": "La página ES de INEMA ganó impresiones en español la semana siguiente a la indexación. ¿Qué prueba el caso?",
+          "p": "La página ES de ARCKHÉ ganó impresiones en español la semana siguiente a la indexación. ¿Qué prueba el caso?",
           "opcoes": [
             "Que el español da clic garantizado.",
             "Que el idioma abrió una puerta a consultas que el portugués no alcanzaba; el clic todavía no llegó.",
@@ -217,7 +217,7 @@
             "Otro hreflang."
           ],
           "certa": 1,
-          "explica": "El propio estudio de INEMA señala esto como la decisión principal de la versión en otro idioma.",
+          "explica": "El propio estudio de ARCKHÉ señala esto como la decisión principal de la versión en otro idioma.",
           "ref": "diagrama"
         }
       ]
@@ -250,13 +250,13 @@
           "icone": "camadas"
         },
         {
-          "t": "Método inemaSEO: multilingüe",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/METODO.md",
+          "t": "Método ARCKHÉSEO: multilingüe",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/METODO.md",
           "icone": "arquivo"
         },
         {
           "t": "Curso 1, clase 5: sitemaps y hreflang",
-          "href": "https://inematds.github.io/formacao-inemaseo-fundacao-v72/aulas/sitemaps-hreflang/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "seta"
         }
       ]

@@ -80,7 +80,7 @@
             "Usa el archivo sem-marca de la clase 2: ya quita las consultas de la marca."
           ],
           "exemplo": {
-            "rot": "En INEMA (línea base del 23/09/2026)",
+            "rot": "En ARCKHÉ (línea base del 23/09/2026)",
             "texto": "La página /guias/trilha-iniciantes.html tenía 730 impresiones y 4 clics en la posición 1,7. El informe de línea base la marcó como \"ganancia rápida de título\"."
           }
         },
@@ -92,7 +92,7 @@
             "Si es casi todo marca, el diagnóstico \"título débil\" se cae."
           ],
           "exemplo": {
-            "rot": "En INEMA",
+            "rot": "En ARCKHÉ",
             "texto": "Cuando se abrieron las consultas de la página, casi todas las impresiones venían de búsquedas por la marca. La propuesta de título quedó ligera: decir qué es la página, para cuando aparezcan búsquedas de tema. Quedó como borrador, sin medición de resultados."
           }
         },
@@ -180,7 +180,7 @@
             "Comprarle publicidad."
           ],
           "certa": 1,
-          "explica": "En INEMA, la sospecha de título débil se descartó cuando las consultas mostraron que las impresiones venían de búsquedas por la marca.",
+          "explica": "En ARCKHÉ, la sospecha de título débil se descartó cuando las consultas mostraron que las impresiones venían de búsquedas por la marca.",
           "ref": "passos",
           "cert": true
         },
@@ -255,8 +255,8 @@
           "icone": "lista"
         },
         {
-          "t": "Método inemaSEO: Plan B",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/METODO.md",
+          "t": "Método ARCKHÉSEO: Plan B",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/METODO.md",
           "icone": "arquivo"
         }
       ]

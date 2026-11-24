@@ -42,13 +42,13 @@
          "texto": ["Escolha as páginas que precisam estar no índice: home, páginas de assunto, catálogo, páginas novas do mês.", "Guarde num arquivo urls-chave.txt. É a mesma lista toda semana."]},
         {"titulo": "A inspeção", "sub": "painel ou script",
          "texto": ["No Search Console, cole cada URL na barra de inspeção. Anote estado, data do último rastreio e canônico do Google.", "O gsc_inspecionar.py faz o mesmo em lote, com credencial. A API é só leitura: \"Solicitar indexação\" continua sendo um clique no painel."],
-         "exemplo": {"rot": "No INEMA", "texto": "Em 05/10/2026, 12 de 14 URLs-chave indexadas. Em 13/10, 13 de 14. Faltava /eventos/, \"desconhecida pro Google\"."}},
+         "exemplo": {"rot": "No ARCKHÉ", "texto": "Em 05/10/2026, 12 de 14 URLs-chave indexadas. Em 13/10, 13 de 14. Faltava /eventos/, \"desconhecida pro Google\"."}},
         {"titulo": "O lote que não entra", "sub": "detectada, não indexada",
          "texto": ["Muitas páginas parecidas publicadas de uma vez costumam parar em \"detectada\".", "Antes de pedir indexação de novo, compare as páginas entre si."],
-         "exemplo": {"rot": "No INEMA (23/09/2026)", "texto": "283 fichas de curso foram publicadas num commit só. Da amostra de 6, 5 estavam descobertas e nunca rastreadas. Cada ficha tinha de 170 a 240 palavras, duas fichas sorteadas dividiam 47% do vocabulário, o FAQ era idêntico e a descrição era copiada."}},
+         "exemplo": {"rot": "No ARCKHÉ (23/09/2026)", "texto": "283 fichas de curso foram publicadas num commit só. Da amostra de 6, 5 estavam descobertas e nunca rastreadas. Cada ficha tinha de 170 a 240 palavras, duas fichas sorteadas dividiam 47% do vocabulário, o FAQ era idêntico e a descrição era copiada."}},
         {"titulo": "O link que sumiu", "sub": "estado que piora",
          "texto": ["Se uma página indexada volta a cair, procure o que mudou nos links internos.", "Página sem link renderizado no servidor fica órfã para o buscador."],
-         "exemplo": {"rot": "No INEMA (30/09/2026)", "texto": "A página /cursos/ virou \"só busca\" e as 310 fichas perderam o único link interno renderizado no servidor. A correção foi um índice recolhido, sem mudança visual."}}
+         "exemplo": {"rot": "No ARCKHÉ (30/09/2026)", "texto": "A página /cursos/ virou \"só busca\" e as 310 fichas perderam o único link interno renderizado no servidor. A correção foi um índice recolhido, sem mudança visual."}}
       ]
     },
     {
@@ -66,7 +66,7 @@
       "saida": {
         "selo": "real",
         "abas": [
-          {"rot": "Inspeção do INEMA (13/10/2026)", "html": "<table><tr><th>URL</th><th>estado</th><th>rastreio</th></tr><tr><td>/</td><td>Submitted and indexed</td><td>2026-10-12</td></tr><tr><td>/aprender-inteligencia-artificial/</td><td>Submitted and indexed</td><td>2026-10-10</td></tr><tr><td>/es/aprender-inteligencia-artificial/</td><td>Submitted and indexed</td><td>2026-10-03</td></tr><tr><td>/cursos/</td><td>Submitted and indexed</td><td>2026-10-12</td></tr><tr><td>/eventos/</td><td>URL is unknown to Google</td><td>-</td></tr></table><p>5 das 14 linhas do relatório semanal. Indexadas: 13 de 14.</p>"},
+          {"rot": "Inspeção do ARCKHÉ (13/10/2026)", "html": "<table><tr><th>URL</th><th>estado</th><th>rastreio</th></tr><tr><td>/</td><td>Submitted and indexed</td><td>2026-10-12</td></tr><tr><td>/aprender-inteligencia-artificial/</td><td>Submitted and indexed</td><td>2026-10-10</td></tr><tr><td>/es/aprender-inteligencia-artificial/</td><td>Submitted and indexed</td><td>2026-10-03</td></tr><tr><td>/cursos/</td><td>Submitted and indexed</td><td>2026-10-12</td></tr><tr><td>/eventos/</td><td>URL is unknown to Google</td><td>-</td></tr></table><p>5 das 14 linhas do relatório semanal. Indexadas: 13 de 14.</p>"},
           {"rot": "Formato da saída do script", "html": "<pre>https://www.seusite.com/pagina/\n   Enviada e indexada | rastreio 2026-10-13 | canônico Google https://www.seusite.com/pagina/</pre><p>Simulação do formato: estado, data do último rastreio e canônico escolhido pelo Google.</p>"}
         ]
       }
@@ -94,7 +94,7 @@
          "certa": 1, "explica": "Detectada é antes do rastreio. Rastreada e não indexada é depois: o Google leu e não quis guardar.", "ref": "diagrama", "cert": true},
         {"p": "Um lote de 283 páginas parecidas não entra no índice. Qual a primeira ação?",
          "opcoes": ["Pedir indexação de todas de novo.", "Comparar as páginas entre si: tamanho, vocabulário repetido, texto copiado.", "Publicar mais 283.", "Comprar um indexador."],
-         "certa": 1, "explica": "No INEMA, as fichas tinham de 170 a 240 palavras e duas sorteadas dividiam 47% do vocabulário. O problema era o lote, não o pedido.", "ref": "passos"},
+         "certa": 1, "explica": "No ARCKHÉ, as fichas tinham de 170 a 240 palavras e duas sorteadas dividiam 47% do vocabulário. O problema era o lote, não o pedido.", "ref": "passos"},
         {"p": "Para onde vai uma URL \"desconhecida pro Google\"?",
          "opcoes": ["Para o noindex.", "Para um link interno de página indexada, o sitemap e \"Solicitar indexação\".", "Para o robots.txt.", "Para o lixo."],
          "certa": 1, "explica": "Desconhecida é falta de caminho: nenhum link nem sitemap levou o Google até ela.", "ref": "diagrama"},
@@ -116,9 +116,9 @@
       "tipo": "links",
       "titulo": "Para ir além",
       "links": [
-        {"t": "gsc_inspecionar.py no GitHub", "href": "https://github.com/inematds/inemaseo-metodo/blob/main/tools/gsc_inspecionar.py", "icone": "terminal"},
+        {"t": "gsc_inspecionar.py no GitHub", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/tools/gsc_inspecionar.py", "icone": "terminal"},
         {"t": "Inspeção de URL (ajuda do Google)", "href": "https://support.google.com/webmasters/answer/9012289", "icone": "lupa"},
-        {"t": "Curso 1, aula 7: página rasa sai do índice", "href": "https://inematds.github.io/formacao-inemaseo-fundacao-v72/aulas/pagina-rasa/", "icone": "seta"}
+        {"t": "Curso 1, aula 7: página rasa sai do índice", "href": "https://linnoff88-dev.github.io/ "icone": "seta"}
       ]
     }
   ]

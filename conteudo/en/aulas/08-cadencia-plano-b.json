@@ -88,7 +88,7 @@
             "One decision per week is enough: change a title, write a topic, strengthen a page."
           ],
           "exemplo": {
-            "rot": "At INEMA",
+            "rot": "At ARCKHÉ",
             "texto": "The weekly report runs every Tuesday morning and only generates files; a person decides and publishes."
           }
         },
@@ -124,7 +124,7 @@
       "sub": "Replace what is between < > with your own. The gsc-historico commands come from the tool's README; the details of the tool are covered in course 7.",
       "blocos": [
         {
-          "rot": "Plan B (inemaSEO method)",
+          "rot": "Plan B (ARCKHÉSEO method)",
           "icone": "lista",
           "conteudo": "| symptom (day 30–60) | likely cause | what to do |\n|---|---|---|\n| few pages indexed | crawling, wrong canonical, thin page | URL Inspection, internal links, noindex on the thin ones, request indexing again |\n| indexed, almost no impressions | keyword with no demand or lack of authority | revalidate with Search Console data; change the topic; backlinks |\n| impressions with no clicks (CTR < 0.5%) | weak title/description | title with a specific promise and a number; measure for 2 weeks |\n| position 11–30 stalled | content ok, low authority | external links to the winners; new sections for the queries that showed up |\n| overall drop after publishing a lot | signal of content at scale | stop, audit with the checklist, merge/remove the weak ones, lower cadence |"
         },
@@ -134,7 +134,7 @@
           "conteudo": "Every <Tuesday> <9am>: non-branded export + inspection of the key URLs + 1 decision (30 min)\nEvery day <1>: battery of <25> questions in <4> assistants (1 h)\nDay <30> and day <60> after publishing: read the symptom and apply Plan B\nEvery <Friday>: check that the week went into the archive folder"
         },
         {
-          "rot": "Terminal · next step: gsc-historico (inemaseo-sistemas)",
+          "rot": "Terminal · next step: gsc-historico (ARCKHÉseo-sistemas)",
           "icone": "terminal",
           "conteudo": "# import the weekly export folder (re-importing does not duplicate)\npython3 gsc_historico.py importar <weekly-gsc-folder> --db dados/gsc.sqlite\n\n# report for one site: current week × previous week\npython3 gsc_historico.py relatorio --db dados/gsc.sqlite --site <seusite.com> --saida saida/<seusite.com>"
         }
@@ -144,7 +144,7 @@
         "abas": [
           {
             "rot": "Monthly battery (spreadsheet template)",
-            "html": "<table><tr><th>date</th><th>assistant</th><th>question</th><th>cited the site?</th><th>address</th><th>who showed up</th></tr><tr><td>01/11</td><td>ChatGPT</td><td>how to choose clay for beginners</td><td>no</td><td>-</td><td>store X</td></tr><tr><td>01/11</td><td>Perplexity</td><td>how to choose clay for beginners</td><td>yes</td><td>/argila-iniciantes/</td><td>-</td></tr></table><p>Made-up example. At INEMA, the July/2026 round gave 0 out of 48 neutral answers on Claude: zero is also a number worth keeping.</p>"
+            "html": "<table><tr><th>date</th><th>assistant</th><th>question</th><th>cited the site?</th><th>address</th><th>who showed up</th></tr><tr><td>01/11</td><td>ChatGPT</td><td>how to choose clay for beginners</td><td>no</td><td>-</td><td>store X</td></tr><tr><td>01/11</td><td>Perplexity</td><td>how to choose clay for beginners</td><td>yes</td><td>/argila-iniciantes/</td><td>-</td></tr></table><p>Made-up example. At ARCKHÉ, the July/2026 round gave 0 out of 48 neutral answers on Claude: zero is also a number worth keeping.</p>"
           },
           {
             "rot": "Why archive",
@@ -222,7 +222,7 @@
               "t": "Zero clicks is a failure. Delete the pages.",
               "vai": "fim-apagou",
               "nota": 0,
-              "comenta": "You threw away the first sign. At INEMA, non-branded started exactly like this: impressions rising and 0 clicks."
+              "comenta": "You threw away the first sign. At ARCKHÉ, non-branded started exactly like this: impressions rising and 0 clicks."
             }
           ]
         },
@@ -433,7 +433,7 @@
       "tipo": "gerador",
       "titulo": "Generate your plan with dates",
       "sub": "Pick the start date and how much time you have per week. The plan respects the exercises that call for waiting.",
-      "curso": "inemaSEO 3 · Measurement and Routine",
+      "curso": "ARCKHÉSEO 3 · Measurement and Routine",
       "horas_padrao": 2,
       "degraus": [
         {
@@ -470,7 +470,7 @@
         }
       ],
       "txt": {
-        "titulo": "Plan — inemaSEO 3 · Measurement and Routine",
+        "titulo": "Plan — ARCKHÉSEO 3 · Measurement and Routine",
         "inicio": "Start",
         "ritmo": "Pace",
         "termino": "Expected finish",
@@ -506,22 +506,22 @@
       "links": [
         {
           "t": "gsc-historico: Search Console kept forever",
-          "href": "https://github.com/inematds/inemaseo-sistemas/tree/main/ferramentas/gsc-historico",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-sistemas/tree/main/ferramentas/gsc-historico",
           "icone": "pasta"
         },
         {
-          "t": "inemaseo-sistemas (open tools)",
-          "href": "https://github.com/inematds/inemaseo-sistemas",
+          "t": "ARCKHÉseo-sistemas (open tools)",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-sistemas",
           "icone": "git"
         },
         {
-          "t": "inemaSEO method: Plan B",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/METODO.md",
+          "t": "ARCKHÉSEO method: Plan B",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/METODO.md",
           "icone": "arquivo"
         },
         {
-          "t": "Next: inemaSEO 4 · In the AIs",
-          "href": "https://inematds.github.io/formacao-inemaseo-ias-v72/",
+          "t": "Next: ARCKHÉSEO 4 · In the AIs",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "seta"
         }
       ]

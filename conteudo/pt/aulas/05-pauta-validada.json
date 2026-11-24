@@ -43,7 +43,7 @@
          "texto": ["Fique com consultas sem marca que têm impressão e fazem sentido para o seu negócio.", "Busca que não tem a ver com você (um erro, um nome solto) é ruído: ignore."]},
         {"titulo": "Classificar", "sub": "pauta ou melhorar",
          "texto": ["Para cada consulta, procure a página dona no seu site.", "Sem dona: pauta. Com dona fora do topo: melhorar a dona."],
-         "exemplo": {"rot": "No INEMA (semana de 05 a 11/10/2026)", "texto": "As consultas sem marca que mais apareceram eram em espanhol: \"aprender ia\" (10 impressões), \"aprender inteligencia artificial desde cero\" (10), \"cómo aprender ia\" (8). Todas caíam na página ES de aprender IA, entre as posições 29 e 61. Já tinham dona: o caso é melhorar, não escrever outra."}},
+         "exemplo": {"rot": "No ARCKHÉ (semana de 05 a 11/10/2026)", "texto": "As consultas sem marca que mais apareceram eram em espanhol: \"aprender ia\" (10 impressões), \"aprender inteligencia artificial desde cero\" (10), \"cómo aprender ia\" (8). Todas caíam na página ES de aprender IA, entre as posições 29 e 61. Já tinham dona: o caso é melhorar, não escrever outra."}},
         {"titulo": "O ativo real", "sub": "a regra do método",
          "texto": ["Cada página nova se apoia num ativo real: curso, projeto, experimento, dado do seu negócio. Sem ativo, a pauta espera.", "É isso que faz a página não ser mais uma igual às outras."]},
         {"titulo": "O portão", "sub": "humano decide",
@@ -63,7 +63,7 @@
       "saida": {
         "selo": "real",
         "abas": [
-          {"rot": "Consultas sem marca do INEMA (05–11/10/2026)", "html": "<table><tr><th>consulta</th><th>impr.</th><th>posição</th><th>página</th></tr><tr><td>aprender ia</td><td>10</td><td>34,5</td><td>/es/aprender-inteligencia-artificial/</td></tr><tr><td>aprender inteligencia artificial desde cero</td><td>10</td><td>33,2</td><td>/es/aprender-inteligencia-artificial/</td></tr><tr><td>cómo aprender ia</td><td>8</td><td>46,1</td><td>/es/aprender-inteligencia-artificial/</td></tr><tr><td>aprender inteligência artificial (PT)</td><td>0</td><td>-</td><td>sem impressão na semana</td></tr></table><p>Do relatório semanal de 13/10/2026.</p>"},
+          {"rot": "Consultas sem marca do ARCKHÉ (05–11/10/2026)", "html": "<table><tr><th>consulta</th><th>impr.</th><th>posição</th><th>página</th></tr><tr><td>aprender ia</td><td>10</td><td>34,5</td><td>/es/aprender-inteligencia-artificial/</td></tr><tr><td>aprender inteligencia artificial desde cero</td><td>10</td><td>33,2</td><td>/es/aprender-inteligencia-artificial/</td></tr><tr><td>cómo aprender ia</td><td>8</td><td>46,1</td><td>/es/aprender-inteligencia-artificial/</td></tr><tr><td>aprender inteligência artificial (PT)</td><td>0</td><td>-</td><td>sem impressão na semana</td></tr></table><p>Do relatório semanal de 13/10/2026.</p>"},
           {"rot": "Como ler", "html": "<ul><li>As consultas ES já têm dona: a decisão é <b>melhorar</b> a página ES.</li><li>A consulta PT equivalente teve 0 impressão na semana: sem sinal ainda, nada de página nova por ela.</li></ul>"}
         ]
       }
@@ -113,9 +113,9 @@
       "tipo": "links",
       "titulo": "Para ir além",
       "links": [
-        {"t": "Método inemaSEO: etapas 6 e 10", "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/METODO.md", "icone": "arquivo"},
+        {"t": "Método ARCKHÉSEO: etapas 6 e 10", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/METODO.md", "icone": "arquivo"},
         {"t": "Google: políticas de spam (conteúdo em escala)", "href": "https://developers.google.com/search/docs/essentials/spam-policies", "icone": "escudo"},
-        {"t": "Curso 2: as páginas que só você pode escrever", "href": "https://inematds.github.io/formacao-inemaseo-conteudo-v72/", "icone": "seta"}
+        {"t": "Curso 2: as páginas que só você pode escrever", "href": "https://linnoff88-dev.github.io/ "icone": "seta"}
       ]
     }
   ]

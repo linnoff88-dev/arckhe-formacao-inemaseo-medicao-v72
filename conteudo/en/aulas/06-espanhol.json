@@ -5,7 +5,7 @@
   "titulo": "Multilingual as a lever: the Spanish case",
   "titulo_curto": "The Spanish case",
   "minutos": 17,
-  "lead": "In Spanish, the competition is usually smaller and the demand is big. On INEMA, the page about learning AI in Spanish was indexed on 10/03/2026, and the following week it was already showing up in queries that the Portuguese version didn't reach. In this lesson, you use data to decide whether a page deserves another language, and how to do it without falling into mass translation.",
+  "lead": "In Spanish, the competition is usually smaller and the demand is big. On ARCKHÉ, the page about learning AI in Spanish was indexed on 10/03/2026, and the following week it was already showing up in queries that the Portuguese version didn't reach. In this lesson, you use data to decide whether a page deserves another language, and how to do it without falling into mass translation.",
   "objetivo": "decide, using real countries and queries, whether a winning page deserves a version in another language, and plan that reviewed version.",
   "competencias": [
     "ler-paises-no-search-console",
@@ -17,7 +17,7 @@
       "t": "Reading countries and languages in Search Console"
     },
     {
-      "t": "What Spanish showed on INEMA (and what it hasn't shown yet)"
+      "t": "What Spanish showed on ARCKHÉ (and what it hasn't shown yet)"
     },
     {
       "t": "Translation is not keyword research"
@@ -81,7 +81,7 @@
             "A few impressions from abroad is not ready-made demand; it is a signal to test with one page."
           ],
           "exemplo": {
-            "rot": "At INEMA (baseline from 08/25 to 09/21/2026)",
+            "rot": "At ARCKHÉ (baseline from 08/25 to 09/21/2026)",
             "texto": "Impressions by country: Brazil 1,449, Portugal 106, Argentina 24, Uruguay 13. A small signal, but from people who speak Spanish."
           }
         },
@@ -93,7 +93,7 @@
             "One well-reviewed page is worth more than ten sloppily translated ones."
           ],
           "exemplo": {
-            "rot": "At INEMA",
+            "rot": "At ARCKHÉ",
             "texto": "On 09/30/2026, the target queries in Portuguese sat between positions 23 and 69, with 0 clicks. The page /es/aprender-inteligencia-artificial/ was indexed on 10/03; the following week it had 5 to 10 impressions on each Spanish query, at positions 29 to 61."
           }
         },
@@ -101,7 +101,7 @@
           "titulo": "The honest read",
           "sub": "what is still missing",
           "texto": [
-            "A Spanish impression is not a click or a conversion. At INEMA, the case shows that the language opened a door; the click has not come yet.",
+            "A Spanish impression is not a click or a conversion. At ARCKHÉ, the case shows that the language opened a door; the click has not come yet.",
             "Measure the new version in the same weekly export, separated by page."
           ]
         },
@@ -135,12 +135,12 @@
         "selo": "real",
         "abas": [
           {
-            "rot": "INEMA countries (28 days through 09/21/2026)",
+            "rot": "ARCKHÉ countries (28 days through 09/21/2026)",
             "html": "<table><tr><th>country</th><th>impressions</th></tr><tr><td>Brazil</td><td>1,449</td></tr><tr><td>Portugal</td><td>106</td></tr><tr><td>Argentina</td><td>24</td></tr><tr><td>Uruguay</td><td>13</td></tr></table><p>From the baseline report of 09/23/2026.</p>"
           },
           {
             "rot": "What came next",
-            "html": "<ul><li>10/03: ES page about learning AI indexed.</li><li>Week of 10/05 to 10/11: \"aprender ia\" 10 impressions, \"aprender inteligencia artificial desde cero\" 10, \"cómo aprender ia\" 8, positions 29 to 61.</li><li>Non-branded clicks to inema.club in the same week: 0.</li></ul>"
+            "html": "<ul><li>10/03: ES page about learning AI indexed.</li><li>Week of 10/05 to 10/11: \"aprender ia\" 10 impressions, \"aprender inteligencia artificial desde cero\" 10, \"cómo aprender ia\" 8, positions 29 to 61.</li><li>Non-branded clicks to ARCKHÉ AI in the same week: 0.</li></ul>"
           }
         ]
       }
@@ -172,7 +172,7 @@
       "sub": "The explanation appears after your answer.",
       "perguntas": [
         {
-          "p": "The INEMA ES page gained Spanish impressions the week after indexing. What does the case prove?",
+          "p": "The ARCKHÉ ES page gained Spanish impressions the week after indexing. What does the case prove?",
           "opcoes": [
             "That Spanish guarantees clicks.",
             "That the language opened a door to queries that Portuguese did not reach; the click has not come yet.",
@@ -217,7 +217,7 @@
             "Another hreflang."
           ],
           "certa": 1,
-          "explica": "INEMA's own study points to this as the main decision for a version in another language.",
+          "explica": "ARCKHÉ's own study points to this as the main decision for a version in another language.",
           "ref": "diagrama"
         }
       ]
@@ -250,13 +250,13 @@
           "icone": "camadas"
         },
         {
-          "t": "inemaSEO method: multilingual",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/METODO.md",
+          "t": "ARCKHÉSEO method: multilingual",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/METODO.md",
           "icone": "arquivo"
         },
         {
           "t": "Course 1, lesson 5: sitemaps and hreflang",
-          "href": "https://inematds.github.io/formacao-inemaseo-fundacao-v72/aulas/sitemaps-hreflang/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "seta"
         }
       ]

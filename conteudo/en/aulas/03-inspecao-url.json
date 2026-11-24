@@ -83,7 +83,7 @@
             "gsc_inspecionar.py does the same in batch, with credentials. The API is read-only: \"Request indexing\" is still a click in the dashboard."
           ],
           "exemplo": {
-            "rot": "At INEMA",
+            "rot": "At ARCKHÉ",
             "texto": "On 10/05/2026, 12 of 14 key URLs were indexed. On 10/13, 13 of 14. /eventos/ was missing, \"unknown to Google\"."
           }
         },
@@ -95,7 +95,7 @@
             "Before you ask for indexing again, compare the pages with each other."
           ],
           "exemplo": {
-            "rot": "At INEMA (09/23/2026)",
+            "rot": "At ARCKHÉ (09/23/2026)",
             "texto": "283 course pages were published in a single commit. Of a sample of 6, 5 were discovered and never crawled. Each page had 170 to 240 words, two randomly picked pages shared 47% of their vocabulary, the FAQ was identical, and the description was copied."
           }
         },
@@ -107,7 +107,7 @@
             "A page with no server-rendered link becomes an orphan for the search engine."
           ],
           "exemplo": {
-            "rot": "At INEMA (09/30/2026)",
+            "rot": "At ARCKHÉ (09/30/2026)",
             "texto": "The /cursos/ page became \"search only\" and the 310 course pages lost their only server-rendered internal link. The fix was a collapsed index, with no visual change."
           }
         }
@@ -138,7 +138,7 @@
         "selo": "real",
         "abas": [
           {
-            "rot": "INEMA inspection (10/13/2026)",
+            "rot": "ARCKHÉ inspection (10/13/2026)",
             "html": "<table><tr><th>URL</th><th>status</th><th>crawl</th></tr><tr><td>/</td><td>Submitted and indexed</td><td>2026-10-12</td></tr><tr><td>/aprender-inteligencia-artificial/</td><td>Submitted and indexed</td><td>2026-10-10</td></tr><tr><td>/es/aprender-inteligencia-artificial/</td><td>Submitted and indexed</td><td>2026-10-03</td></tr><tr><td>/cursos/</td><td>Submitted and indexed</td><td>2026-10-12</td></tr><tr><td>/eventos/</td><td>URL is unknown to Google</td><td>-</td></tr></table><p>5 of the 14 rows in the weekly report. Indexed: 13 of 14.</p>"
           },
           {
@@ -196,7 +196,7 @@
             "Buy an indexer."
           ],
           "certa": 1,
-          "explica": "At INEMA, the profile pages were 170 to 240 words long, and two picked at random shared 47% of their vocabulary. The problem was the batch, not the request.",
+          "explica": "At ARCKHÉ, the profile pages were 170 to 240 words long, and two picked at random shared 47% of their vocabulary. The problem was the batch, not the request.",
           "ref": "passos"
         },
         {
@@ -249,7 +249,7 @@
       "links": [
         {
           "t": "gsc_inspecionar.py on GitHub",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/tools/gsc_inspecionar.py",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/tools/gsc_inspecionar.py",
           "icone": "terminal"
         },
         {
@@ -259,7 +259,7 @@
         },
         {
           "t": "Course 1, lesson 7: a thin page leaves the index",
-          "href": "https://inematds.github.io/formacao-inemaseo-fundacao-v72/aulas/pagina-rasa/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "seta"
         }
       ]

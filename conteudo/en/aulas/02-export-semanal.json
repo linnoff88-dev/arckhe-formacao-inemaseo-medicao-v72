@@ -20,7 +20,7 @@
       "t": "Reading resumo.csv week by week"
     },
     {
-      "t": "INEMA's real arc: impressions go up, non-branded clicks don't"
+      "t": "ARCKHÉ's real arc: impressions go up, non-branded clicks don't"
     },
     {
       "t": "Doing the same by hand when there are no credentials"
@@ -101,7 +101,7 @@
             "The resumo.csv file only gains rows; nothing is deleted."
           ],
           "exemplo": {
-            "rot": "At INEMA",
+            "rot": "At ARCKHÉ",
             "texto": "The weeks 09/27–10/03 and 09/28–10/04 share six days. Both are in the file, but the comparison uses weeks that don't overlap."
           }
         },
@@ -140,16 +140,16 @@
         "selo": "real",
         "abas": [
           {
-            "rot": "resumo.csv for inema.club",
-            "html": "<table><tr><th>week</th><th>total</th><th>branded</th><th>non-branded</th><th>anonymized</th><th>non-branded queries</th></tr><tr><td>09/16–09/22</td><td>104/437</td><td>79/245</td><td>0/8</td><td>25/184</td><td>3</td></tr><tr><td>09/24–09/30</td><td>77/820</td><td>57/220</td><td>0/54</td><td>20/546</td><td>29</td></tr><tr><td>09/27–10/03</td><td>87/817</td><td>68/288</td><td>0/55</td><td>19/474</td><td>36</td></tr><tr><td>09/28–10/04</td><td>77/708</td><td>60/253</td><td>0/47</td><td>17/408</td><td>30</td></tr><tr><td>10/05–10/11</td><td>114/702</td><td>87/238</td><td>0/157</td><td>27/307</td><td>51</td></tr></table><p>Clicks/impressions. Real file from inemaSEO (2026).</p>"
+            "rot": "resumo.csv for ARCKHÉ AI",
+            "html": "<table><tr><th>week</th><th>total</th><th>branded</th><th>non-branded</th><th>anonymized</th><th>non-branded queries</th></tr><tr><td>09/16–09/22</td><td>104/437</td><td>79/245</td><td>0/8</td><td>25/184</td><td>3</td></tr><tr><td>09/24–09/30</td><td>77/820</td><td>57/220</td><td>0/54</td><td>20/546</td><td>29</td></tr><tr><td>09/27–10/03</td><td>87/817</td><td>68/288</td><td>0/55</td><td>19/474</td><td>36</td></tr><tr><td>09/28–10/04</td><td>77/708</td><td>60/253</td><td>0/47</td><td>17/408</td><td>30</td></tr><tr><td>10/05–10/11</td><td>114/702</td><td>87/238</td><td>0/157</td><td>27/307</td><td>51</td></tr></table><p>Clicks/impressions. Real file from ARCKHÉSEO (2026).</p>"
           },
           {
-            "rot": "resumo.csv for inema.pro",
+            "rot": "resumo.csv for ARCKHÉ.pro",
             "html": "<table><tr><th>week</th><th>total</th><th>branded</th><th>non-branded</th><th>anonymized</th><th>non-branded queries</th></tr><tr><td>09/16–09/22</td><td>6/112</td><td>4/61</td><td>0/5</td><td>2/46</td><td>2</td></tr><tr><td>09/24–09/30</td><td>2/198</td><td>1/67</td><td>0/8</td><td>1/123</td><td>4</td></tr><tr><td>09/27–10/03</td><td>5/232</td><td>4/98</td><td>0/15</td><td>1/119</td><td>9</td></tr><tr><td>09/28–10/04</td><td>4/201</td><td>4/89</td><td>0/14</td><td>0/98</td><td>8</td></tr><tr><td>10/05–10/11</td><td>11/761</td><td>5/116</td><td><b>2/293</b></td><td>4/352</td><td>52</td></tr></table>"
           },
           {
             "rot": "How to read it",
-            "html": "<ul><li><b>inema.club</b>: non-branded impressions went from 8 to 157, and non-branded queries from 3 to 51 in four weeks.</li><li><b>But the club's non-branded clicks are still at 0.</b> New people are seeing the site; they aren't clicking yet.</li><li><b>inema.pro</b>: the first 2 non-branded clicks, in the week of 10/05 to 10/11, from searches like \"curso jev\".</li></ul>"
+            "html": "<ul><li><b>ARCKHÉ AI</b>: non-branded impressions went from 8 to 157, and non-branded queries from 3 to 51 in four weeks.</li><li><b>But the club's non-branded clicks are still at 0.</b> New people are seeing the site; they aren't clicking yet.</li><li><b>ARCKHÉ.pro</b>: the first 2 non-branded clicks, in the week of 10/05 to 10/11, from searches like \"curso jev\".</li></ul>"
           }
         ]
       }
@@ -182,7 +182,7 @@
       "sub": "The explanation appears after your answer.",
       "perguntas": [
         {
-          "p": "The non-branded impressions for inema.club went from 8 to 157 in four weeks, and the non-branded clicks stayed at 0. What does that tell you?",
+          "p": "The non-branded impressions for ARCKHÉ AI went from 8 to 157 in four weeks, and the non-branded clicks stayed at 0. What does that tell you?",
           "opcoes": [
             "That the SEO failed.",
             "That new people started seeing the site in search, but aren't clicking yet: the next step is to check position and title.",
@@ -203,7 +203,7 @@
             "To use less quota."
           ],
           "certa": 1,
-          "explica": "Overlapping weeks count the same days twice. At INEMA, 09/27–10/03 and 09/28–10/04 share six days.",
+          "explica": "Overlapping weeks count the same days twice. At ARCKHÉ, 09/27–10/03 and 09/28–10/04 share six days.",
           "ref": "passos"
         },
         {
@@ -242,7 +242,7 @@
         },
         {
           "t": "Impressions first, then clicks",
-          "texto": "Non-branded starts with impressions. At INEMA, 8 → 157 in four weeks, with 0 clicks on the club."
+          "texto": "Non-branded starts with impressions. At ARCKHÉ, 8 → 157 in four weeks, with 0 clicks on the club."
         },
         {
           "t": "Script or spreadsheet",
@@ -256,7 +256,7 @@
       "links": [
         {
           "t": "gsc_semanal.py on GitHub",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/tools/gsc_semanal.py",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/tools/gsc_semanal.py",
           "icone": "terminal"
         },
         {
@@ -265,8 +265,8 @@
           "icone": "lupa"
         },
         {
-          "t": "inemaSEO method",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/METODO.md",
+          "t": "ARCKHÉSEO method",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/METODO.md",
           "icone": "arquivo"
         }
       ]

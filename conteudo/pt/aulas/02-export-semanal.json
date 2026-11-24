@@ -11,7 +11,7 @@
   "aprende": [
     {"t": "O que o gsc_semanal.py grava e por quê"},
     {"t": "Ler o resumo.csv semana a semana"},
-    {"t": "O arco real do INEMA: impressões sobem, cliques sem marca não"},
+    {"t": "O arco real do ARCKHÉ: impressões sobem, cliques sem marca não"},
     {"t": "Fazer o mesmo à mão quando não há credencial"}
   ],
   "hero_alt": "Prateleira com fichários organizados por cor e um notebook aberto mostrando uma planilha.",
@@ -45,7 +45,7 @@
          "texto": ["GSC_SITES leva as propriedades (ex.: sc-domain:seusite.com). GSC_MARCA leva a regex. GSC_QUOTA_PROJ leva o projeto da cota.", "Nenhuma chave fica no código."]},
         {"titulo": "Rodar", "sub": "toda semana",
          "texto": ["Rode no mesmo dia da semana. Rodar em dias seguidos cria semanas que dividem dias; não some essas duas.", "O resumo.csv só ganha linha; nada é apagado."],
-         "exemplo": {"rot": "No INEMA", "texto": "As semanas 27/09–03/10 e 28/09–04/10 dividem seis dias. Estão as duas no arquivo, mas a comparação usa semanas que não se sobrepõem."}},
+         "exemplo": {"rot": "No ARCKHÉ", "texto": "As semanas 27/09–03/10 e 28/09–04/10 dividem seis dias. Estão as duas no arquivo, mas a comparação usa semanas que não se sobrepõem."}},
         {"titulo": "À mão", "sub": "sem credencial",
          "texto": ["No painel, janela de 7 dias, filtro de regex \"corresponde\" e \"não corresponde\". Copie os números para a planilha da aula 1.", "Leva 10 minutos por semana."]}
       ]
@@ -65,9 +65,9 @@
       "saida": {
         "selo": "real",
         "abas": [
-          {"rot": "resumo.csv do inema.club", "html": "<table><tr><th>semana</th><th>total</th><th>marca</th><th>sem marca</th><th>anônimas</th><th>consultas sem marca</th></tr><tr><td>16–22/09</td><td>104/437</td><td>79/245</td><td>0/8</td><td>25/184</td><td>3</td></tr><tr><td>24–30/09</td><td>77/820</td><td>57/220</td><td>0/54</td><td>20/546</td><td>29</td></tr><tr><td>27/09–03/10</td><td>87/817</td><td>68/288</td><td>0/55</td><td>19/474</td><td>36</td></tr><tr><td>28/09–04/10</td><td>77/708</td><td>60/253</td><td>0/47</td><td>17/408</td><td>30</td></tr><tr><td>05–11/10</td><td>114/702</td><td>87/238</td><td>0/157</td><td>27/307</td><td>51</td></tr></table><p>Cliques/impressões. Arquivo real do inemaSEO (2026).</p>"},
-          {"rot": "resumo.csv do inema.pro", "html": "<table><tr><th>semana</th><th>total</th><th>marca</th><th>sem marca</th><th>anônimas</th><th>consultas sem marca</th></tr><tr><td>16–22/09</td><td>6/112</td><td>4/61</td><td>0/5</td><td>2/46</td><td>2</td></tr><tr><td>24–30/09</td><td>2/198</td><td>1/67</td><td>0/8</td><td>1/123</td><td>4</td></tr><tr><td>27/09–03/10</td><td>5/232</td><td>4/98</td><td>0/15</td><td>1/119</td><td>9</td></tr><tr><td>28/09–04/10</td><td>4/201</td><td>4/89</td><td>0/14</td><td>0/98</td><td>8</td></tr><tr><td>05–11/10</td><td>11/761</td><td>5/116</td><td><b>2/293</b></td><td>4/352</td><td>52</td></tr></table>"},
-          {"rot": "Como ler", "html": "<ul><li><b>inema.club</b>: impressões sem marca de 8 para 157 e consultas sem marca de 3 para 51 em quatro semanas.</li><li><b>Mas os cliques sem marca do club continuam em 0.</b> Gente nova está vendo o site; ainda não está clicando.</li><li><b>inema.pro</b>: os 2 primeiros cliques sem marca na semana de 05 a 11/10, de buscas como \"curso jev\".</li></ul>"}
+          {"rot": "resumo.csv do ARCKHÉ AI", "html": "<table><tr><th>semana</th><th>total</th><th>marca</th><th>sem marca</th><th>anônimas</th><th>consultas sem marca</th></tr><tr><td>16–22/09</td><td>104/437</td><td>79/245</td><td>0/8</td><td>25/184</td><td>3</td></tr><tr><td>24–30/09</td><td>77/820</td><td>57/220</td><td>0/54</td><td>20/546</td><td>29</td></tr><tr><td>27/09–03/10</td><td>87/817</td><td>68/288</td><td>0/55</td><td>19/474</td><td>36</td></tr><tr><td>28/09–04/10</td><td>77/708</td><td>60/253</td><td>0/47</td><td>17/408</td><td>30</td></tr><tr><td>05–11/10</td><td>114/702</td><td>87/238</td><td>0/157</td><td>27/307</td><td>51</td></tr></table><p>Cliques/impressões. Arquivo real do ARCKHÉSEO (2026).</p>"},
+          {"rot": "resumo.csv do ARCKHÉ.pro", "html": "<table><tr><th>semana</th><th>total</th><th>marca</th><th>sem marca</th><th>anônimas</th><th>consultas sem marca</th></tr><tr><td>16–22/09</td><td>6/112</td><td>4/61</td><td>0/5</td><td>2/46</td><td>2</td></tr><tr><td>24–30/09</td><td>2/198</td><td>1/67</td><td>0/8</td><td>1/123</td><td>4</td></tr><tr><td>27/09–03/10</td><td>5/232</td><td>4/98</td><td>0/15</td><td>1/119</td><td>9</td></tr><tr><td>28/09–04/10</td><td>4/201</td><td>4/89</td><td>0/14</td><td>0/98</td><td>8</td></tr><tr><td>05–11/10</td><td>11/761</td><td>5/116</td><td><b>2/293</b></td><td>4/352</td><td>52</td></tr></table>"},
+          {"rot": "Como ler", "html": "<ul><li><b>ARCKHÉ AI</b>: impressões sem marca de 8 para 157 e consultas sem marca de 3 para 51 em quatro semanas.</li><li><b>Mas os cliques sem marca do club continuam em 0.</b> Gente nova está vendo o site; ainda não está clicando.</li><li><b>ARCKHÉ.pro</b>: os 2 primeiros cliques sem marca na semana de 05 a 11/10, de buscas como \"curso jev\".</li></ul>"}
         ]
       }
     },
@@ -89,12 +89,12 @@
       "titulo": "Teste o que aprendeu",
       "sub": "A explicação aparece depois da sua resposta.",
       "perguntas": [
-        {"p": "As impressões sem marca do inema.club foram de 8 para 157 em quatro semanas, e os cliques sem marca ficaram em 0. O que isso diz?",
+        {"p": "As impressões sem marca do ARCKHÉ AI foram de 8 para 157 em quatro semanas, e os cliques sem marca ficaram em 0. O que isso diz?",
          "opcoes": ["Que o SEO fracassou.", "Que gente nova começou a ver o site nas buscas, mas ainda não clica: o próximo passo é ver posição e título.", "Que o painel está quebrado.", "Que é hora de comprar anúncio."],
          "certa": 1, "explica": "Impressão sem marca é o primeiro sinal. Clique depende de posição e de título; é o que as aulas 4 e 8 atacam.", "ref": "codigo", "cert": true},
         {"p": "Por que rodar o export sempre no mesmo dia da semana?",
          "opcoes": ["Por superstição.", "Para que as semanas não dividam dias e a comparação seja justa.", "Porque o Google só libera às terças.", "Para gastar menos cota."],
-         "certa": 1, "explica": "Semanas sobrepostas contam os mesmos dias duas vezes. No INEMA, 27/09–03/10 e 28/09–04/10 dividem seis dias.", "ref": "passos"},
+         "certa": 1, "explica": "Semanas sobrepostas contam os mesmos dias duas vezes. No ARCKHÉ, 27/09–03/10 e 28/09–04/10 dividem seis dias.", "ref": "passos"},
         {"p": "Você não tem credencial do Google Cloud. E agora?",
          "opcoes": ["Desistir da medição.", "Pagar uma ferramenta.", "Fazer a mesma linha à mão no painel, com o filtro de regex, 10 minutos por semana.", "Pedir a senha de alguém."],
          "certa": 2, "explica": "O script só automatiza o que o painel mostra. A planilha à mão tem os mesmos três baldes.", "ref": "passos"},
@@ -108,7 +108,7 @@
       "titulo": "Para levar",
       "itens": [
         {"t": "Uma linha por semana", "texto": "Mesmo dia, mesmos baldes, arquivo que só cresce."},
-        {"t": "Primeiro impressão, depois clique", "texto": "O sem marca começa por impressões. No INEMA, 8 → 157 em quatro semanas, com 0 clique no club."},
+        {"t": "Primeiro impressão, depois clique", "texto": "O sem marca começa por impressões. No ARCKHÉ, 8 → 157 em quatro semanas, com 0 clique no club."},
         {"t": "Script ou planilha", "texto": "O gsc_semanal.py automatiza; sem credencial, o painel dá o mesmo número."}
       ]
     },
@@ -116,9 +116,9 @@
       "tipo": "links",
       "titulo": "Para ir além",
       "links": [
-        {"t": "gsc_semanal.py no GitHub", "href": "https://github.com/inematds/inemaseo-metodo/blob/main/tools/gsc_semanal.py", "icone": "terminal"},
+        {"t": "gsc_semanal.py no GitHub", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/tools/gsc_semanal.py", "icone": "terminal"},
         {"t": "Consultas anonimizadas: análise do Google (inglês)", "href": "https://developers.google.com/search/blog/2022/10/performance-data-deep-dive", "icone": "lupa"},
-        {"t": "Método inemaSEO", "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/METODO.md", "icone": "arquivo"}
+        {"t": "Método ARCKHÉSEO", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/METODO.md", "icone": "arquivo"}
       ]
     }
   ]

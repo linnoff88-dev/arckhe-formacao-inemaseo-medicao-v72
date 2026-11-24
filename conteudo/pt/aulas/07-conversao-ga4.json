@@ -42,7 +42,7 @@
       "passos": [
         {"titulo": "A meta", "sub": "uma ação só",
          "texto": ["Escolha uma ação que mostra interesse real: entrar na comunidade, pedir orçamento, baixar o material.", "Uma meta bem escolhida vale mais que dez eventos que ninguém olha."],
-         "exemplo": {"rot": "No INEMA", "texto": "O método prevê o evento \"Entrar na comunidade\" com a página de origem. No analytics do INEMA (Plausible), essa meta ainda aparecia como pendência em outubro/2026. Meta é a parte que mais fica para depois; ponha na agenda."}},
+         "exemplo": {"rot": "No ARCKHÉ", "texto": "O método prevê o evento \"Entrar na comunidade\" com a página de origem. No analytics do ARCKHÉ (Plausible), essa meta ainda aparecia como pendência em outubro/2026. Meta é a parte que mais fica para depois; ponha na agenda."}},
         {"titulo": "O evento-chave", "sub": "no GA4",
          "texto": ["Dispare um evento quando a ação acontece e marque esse evento como evento-chave na administração do GA4.", "Confira no relatório de Tempo real que ele aparece quando você mesmo clica."]},
         {"titulo": "O canal de IA", "sub": "grupo de canais",
@@ -118,7 +118,7 @@
       "links": [
         {"t": "GA4: grupos de canais personalizados (ajuda do Google)", "href": "https://support.google.com/analytics/answer/13051316", "icone": "grafico"},
         {"t": "GA4: eventos-chave (ajuda do Google)", "href": "https://support.google.com/analytics/answer/13128484", "icone": "alvo"},
-        {"t": "Método inemaSEO: etapa 3", "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/METODO.md", "icone": "arquivo"}
+        {"t": "Método ARCKHÉSEO: etapa 3", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/METODO.md", "icone": "arquivo"}
       ]
     }
   ]

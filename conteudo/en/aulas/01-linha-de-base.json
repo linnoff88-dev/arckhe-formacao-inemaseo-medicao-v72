@@ -5,7 +5,7 @@
   "titulo": "Baseline: why almost every click is branded",
   "titulo_curto": "Baseline",
   "minutos": 15,
-  "lead": "The total clicks in Search Console are misleading. At the start, almost every click comes from people who already typed your name. That click is good, but it doesn't show whether your SEO works. In this lesson you pull a 28-day baseline and separate the brand from the rest, as INEMA did in September 2026.",
+  "lead": "The total clicks in Search Console are misleading. At the start, almost every click comes from people who already typed your name. That click is good, but it doesn't show whether your SEO works. In this lesson you pull a 28-day baseline and separate the brand from the rest, as ARCKHÉ did in September 2026.",
   "objetivo": "pull the 28-day baseline and separate how many clicks come from people who already search for your name.",
   "competencias": [
     "tirar-linha-de-base",
@@ -98,8 +98,8 @@
             "Without the record, improvement becomes a personal impression."
           ],
           "exemplo": {
-            "rot": "At INEMA (baseline from 08/25 to 09/21/2026)",
-            "texto": "inema.club had 787 clicks and a 34% CTR. It looked great. But 639 of the 647 clicks from the top searches were branded; non-branded searches added up to just 8 clicks and 72 impressions."
+            "rot": "At ARCKHÉ (baseline from 08/25 to 09/21/2026)",
+            "texto": "ARCKHÉ AI had 787 clicks and a 34% CTR. It looked great. But 639 of the 647 clicks from the top searches were branded; non-branded searches added up to just 8 clicks and 72 impressions."
           }
         }
       ]
@@ -112,7 +112,7 @@
         {
           "rot": "Brand regex (Query filter, custom regex)",
           "icone": "lupa",
-          "conteudo": "<yourname>|<yoursite>|<your site>|<common typo>\n\n# INEMA example: any search that contains the word\ninema"
+          "conteudo": "<yourname>|<yoursite>|<your site>|<common typo>\n\n# ARCKHÉ example: any search that contains the word\nARCKHÉ"
         },
         {
           "rot": "Baseline spreadsheet (template)",
@@ -124,8 +124,8 @@
         "selo": "real",
         "abas": [
           {
-            "rot": "INEMA baseline (report from 09/23/2026)",
-            "html": "<table><tr><th>property</th><th>clicks</th><th>impressions</th><th>CTR</th><th>position</th></tr><tr><td>inema.club</td><td>787</td><td>2,301</td><td>34%</td><td>5.2</td></tr><tr><td>inema.pro</td><td>42</td><td>649</td><td>6.5%</td><td>8.5</td></tr></table><p>28-day window, 08/25 to 09/21/2026. In the top searches, 639 of 647 clicks were branded. Non-branded searches: 8 clicks and 72 impressions.</p>"
+            "rot": "ARCKHÉ baseline (report from 09/23/2026)",
+            "html": "<table><tr><th>property</th><th>clicks</th><th>impressions</th><th>CTR</th><th>position</th></tr><tr><td>ARCKHÉ AI</td><td>787</td><td>2,301</td><td>34%</td><td>5.2</td></tr><tr><td>ARCKHÉ.pro</td><td>42</td><td>649</td><td>6.5%</td><td>8.5</td></tr></table><p>28-day window, 08/25 to 09/21/2026. In the top searches, 639 of 647 clicks were branded. Non-branded searches: 8 clicks and 72 impressions.</p>"
           },
           {
             "rot": "How to read it",
@@ -169,7 +169,7 @@
             "Only if the position is 1."
           ],
           "certa": 1,
-          "explica": "At INEMA, a 34% CTR coexisted with 8 non-branded clicks in 28 days. The total mixes in people who already knew you.",
+          "explica": "At ARCKHÉ, a 34% CTR coexisted with 8 non-branded clicks in 28 days. The total mixes in people who already knew you.",
           "ref": "passos",
           "cert": true
         },
@@ -194,7 +194,7 @@
             "The names of your competitors."
           ],
           "certa": 1,
-          "explica": "Someone who types \"inema clube\" is looking for the brand. If the variation is left out, the brand leaks into the non-branded bucket and inflates the number.",
+          "explica": "Someone who types \"ARCKHÉ clube\" is looking for the brand. If the variation is left out, the brand leaks into the non-branded bucket and inflates the number.",
           "ref": "codigo"
         },
         {
@@ -234,8 +234,8 @@
       "titulo": "Going further",
       "links": [
         {
-          "t": "inemaSEO method, step 3: measurement that separates the brand",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/METODO.md",
+          "t": "ARCKHÉSEO method, step 3: measurement that separates the brand",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/METODO.md",
           "icone": "arquivo"
         },
         {
@@ -244,8 +244,8 @@
           "icone": "grafico"
         },
         {
-          "t": "inemaSEO Area in Eventos",
-          "href": "https://eventos.inema.pro/inemaseo/",
+          "t": "ARCKHÉSEO Area in Eventos",
+          "href": "https://eventos.ARCKHÉ.pro/ARCKHÉseo/",
           "icone": "camadas"
         }
       ]

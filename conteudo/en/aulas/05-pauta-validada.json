@@ -88,7 +88,7 @@
             "No owner: topic. Owner outside the top: improve the owner page."
           ],
           "exemplo": {
-            "rot": "At INEMA (week of 10/05 to 10/11/2026)",
+            "rot": "At ARCKHÉ (week of 10/05 to 10/11/2026)",
             "texto": "The non-branded queries that appeared the most were in Spanish: \"aprender ia\" (10 impressions), \"aprender inteligencia artificial desde cero\" (10), \"cómo aprender ia\" (8). All landed on the Spanish page about learning AI, between positions 29 and 61. They already had an owner page: the case is to improve, not to write another one."
           }
         },
@@ -130,7 +130,7 @@
         "selo": "real",
         "abas": [
           {
-            "rot": "Non-branded INEMA queries (Oct 5–11, 2026)",
+            "rot": "Non-branded ARCKHÉ queries (Oct 5–11, 2026)",
             "html": "<table><tr><th>query</th><th>impr.</th><th>position</th><th>page</th></tr><tr><td>aprender ia</td><td>10</td><td>34,5</td><td>/es/aprender-inteligencia-artificial/</td></tr><tr><td>aprender inteligencia artificial desde cero</td><td>10</td><td>33,2</td><td>/es/aprender-inteligencia-artificial/</td></tr><tr><td>cómo aprender ia</td><td>8</td><td>46,1</td><td>/es/aprender-inteligencia-artificial/</td></tr><tr><td>aprender inteligência artificial (PT)</td><td>0</td><td>-</td><td>no impressions this week</td></tr></table><p>From the weekly report of Oct 13, 2026.</p>"
           },
           {
@@ -240,8 +240,8 @@
       "titulo": "Going further",
       "links": [
         {
-          "t": "inemaSEO method: steps 6 and 10",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/docs/METODO.md",
+          "t": "ARCKHÉSEO method: steps 6 and 10",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/METODO.md",
           "icone": "arquivo"
         },
         {
@@ -251,7 +251,7 @@
         },
         {
           "t": "Course 2: the pages only you can write",
-          "href": "https://inematds.github.io/formacao-inemaseo-conteudo-v72/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "seta"
         }
       ]

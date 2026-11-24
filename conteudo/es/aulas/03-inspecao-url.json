@@ -83,7 +83,7 @@
             "gsc_inspecionar.py hace lo mismo en lote, con credencial. La API es solo lectura: \"Solicitar indexación\" sigue siendo un clic en el panel."
           ],
           "exemplo": {
-            "rot": "En INEMA",
+            "rot": "En ARCKHÉ",
             "texto": "El 05/10/2026, 12 de 14 URLs clave indexadas. El 13/10, 13 de 14. Faltaba /eventos/, \"desconocida para Google\"."
           }
         },
@@ -95,7 +95,7 @@
             "Antes de pedir indexación de nuevo, compara las páginas entre sí."
           ],
           "exemplo": {
-            "rot": "En INEMA (23/09/2026)",
+            "rot": "En ARCKHÉ (23/09/2026)",
             "texto": "283 fichas de curso se publicaron en un solo commit. De una muestra de 6, 5 estaban descubiertas y nunca rastreadas. Cada ficha tenía entre 170 y 240 palabras, dos fichas sorteadas compartían el 47% del vocabulario, el FAQ era idéntico y la descripción estaba copiada."
           }
         },
@@ -107,7 +107,7 @@
             "Una página sin enlace renderizado en el servidor queda huérfana para el buscador."
           ],
           "exemplo": {
-            "rot": "En INEMA (30/09/2026)",
+            "rot": "En ARCKHÉ (30/09/2026)",
             "texto": "La página /cursos/ pasó a ser \"solo búsqueda\" y las 310 fichas perdieron el único enlace interno renderizado en el servidor. La corrección fue un índice contraído, sin cambio visual."
           }
         }
@@ -138,7 +138,7 @@
         "selo": "real",
         "abas": [
           {
-            "rot": "Inspección de INEMA (13/10/2026)",
+            "rot": "Inspección de ARCKHÉ (13/10/2026)",
             "html": "<table><tr><th>URL</th><th>estado</th><th>rastreo</th></tr><tr><td>/</td><td>Submitted and indexed</td><td>2026-10-12</td></tr><tr><td>/aprender-inteligencia-artificial/</td><td>Submitted and indexed</td><td>2026-10-10</td></tr><tr><td>/es/aprender-inteligencia-artificial/</td><td>Submitted and indexed</td><td>2026-10-03</td></tr><tr><td>/cursos/</td><td>Submitted and indexed</td><td>2026-10-12</td></tr><tr><td>/eventos/</td><td>URL is unknown to Google</td><td>-</td></tr></table><p>5 de las 14 filas del informe semanal. Indexadas: 13 de 14.</p>"
           },
           {
@@ -196,7 +196,7 @@
             "Comprar un indexador."
           ],
           "certa": 1,
-          "explica": "En INEMA, las fichas tenían entre 170 y 240 palabras y dos elegidas al azar compartían el 47% del vocabulario. El problema era el lote, no el pedido.",
+          "explica": "En ARCKHÉ, las fichas tenían entre 170 y 240 palabras y dos elegidas al azar compartían el 47% del vocabulario. El problema era el lote, no el pedido.",
           "ref": "passos"
         },
         {
@@ -249,7 +249,7 @@
       "links": [
         {
           "t": "gsc_inspecionar.py en GitHub",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/tools/gsc_inspecionar.py",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/tools/gsc_inspecionar.py",
           "icone": "terminal"
         },
         {
@@ -259,7 +259,7 @@
         },
         {
           "t": "Curso 1, clase 7: la página delgada sale del índice",
-          "href": "https://inematds.github.io/formacao-inemaseo-fundacao-v72/aulas/pagina-rasa/",
+          "href": "https://linnoff88-dev.github.io/
           "icone": "seta"
         }
       ]
