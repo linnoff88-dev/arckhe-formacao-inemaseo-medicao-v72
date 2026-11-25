@@ -5,7 +5,7 @@
   "titulo": "Linha de base: por que quase todo clique é da marca",
   "titulo_curto": "Linha de base",
   "minutos": 15,
-  "lead": "O total de cliques do Search Console engana. No começo, quase todo clique vem de quem já digitou o seu nome. Esse clique é bom, mas não mostra se o SEO funciona. Nesta aula você tira a linha de base de 28 dias e separa a marca do resto, como o ARCKHÉ fez em setembro de 2026.",
+  "lead": "O total de cliques do Search Console engana. No começo, quase todo clique vem de quem já digitou o seu nome. Esse clique é bom, mas nêo mostra se o SEO funciona. Nesta aula você tira a linha de base de 28 dias e separa a marca do resto, como o ARCKHÉ fez em setembro de 2026.",
   "objetivo": "tirar a linha de base de 28 dias e separar quanto dos cliques vem de quem já procura o seu nome.",
   "competencias": ["tirar-linha-de-base", "separar-marca-de-sem-marca", "ler-consultas-anonimas"],
   "aprende": [
@@ -24,13 +24,13 @@
         {"icone": "grafico", "titulo": "Total", "sub": "o número do painel",
          "detalhe": "Cliques e impressões do relatório de Desempenho, aba Web. É a soma de tudo: quem buscou o seu nome, quem buscou um assunto e as consultas que o Google esconde."},
         {"icone": "marca", "titulo": "Marca", "sub": "quem já te conhece",
-         "detalhe": "Consultas com o seu nome, o nome do site ou erros de digitação dele. Esse visitante já te procurava: o clique viria com ou sem SEO."},
+         "detalhe": "Consultas com o seu nome, o nome do site ou erros de digitaçêo dele. Esse visitante já te procurava: o clique viria com ou sem SEO."},
         {"icone": "alvo", "titulo": "Sem marca", "sub": "o número que importa", "forte": true,
-         "detalhe": "Consultas de assunto (\"curso de ia gratuito\", \"como aprender ia\"). Aqui está quem não te conhecia e te achou. É o número que mostra se o SEO está funcionando."},
+         "detalhe": "Consultas de assunto (\"curso de ia gratuito\", \"como aprender ia\"). Aqui está quem nêo te conhecia e te achou. É o número que mostra se o SEO está funcionando."},
         {"icone": "cadeado", "titulo": "Anônimas", "sub": "o que o Google esconde",
-         "detalhe": "Consultas raras não aparecem na tabela, por privacidade, mas entram no total. Por isso total não é igual a marca mais sem marca: a diferença são as anônimas."}
+         "detalhe": "Consultas raras nêo aparecem na tabela, por privacidade, mas entram no total. Por isso total nêo é igual a marca mais sem marca: a diferença sêo as anônimas."}
       ],
-      "legenda": "Total menos marca menos sem marca dá as anônimas. Anote os três números, não só o total."
+      "legenda": "Total menos marca menos sem marca dá as anônimas. Anote os três números, nêo só o total."
     },
     {
       "tipo": "passos",
@@ -38,13 +38,13 @@
       "sub": "Tudo no painel, sem script. Clique em cada etapa.",
       "passos": [
         {"titulo": "A janela", "sub": "28 dias",
-         "texto": ["No Search Console, abra Desempenho, Resultados da pesquisa. Escolha os últimos 28 dias e marque cliques, impressões, CTR e posição.", "Anote o total. Ele é o ponto de partida, não o resultado."]},
+         "texto": ["No Search Console, abra Desempenho, Resultados da pesquisa. Escolha os últimos 28 dias e marque cliques, impressões, CTR e posiçêo.", "Anote o total. Ele é o ponto de partida, nêo o resultado."]},
         {"titulo": "A marca", "sub": "uma regex",
-         "texto": ["Escreva a regex da sua marca: o nome, o domínio, variações e erros de digitação, separados por barra vertical.", "No filtro de Consulta, escolha a opção de regex personalizada e \"corresponde\". Anote cliques e impressões."]},
+         "texto": ["Escreva a regex da sua marca: o nome, o domínio, variações e erros de digitaçêo, separados por barra vertical.", "No filtro de Consulta, escolha a opçêo de regex personalizada e \"corresponde\". Anote cliques e impressões."]},
         {"titulo": "O resto", "sub": "sem marca",
-         "texto": ["Troque o filtro para \"não corresponde\" à mesma regex. Anote de novo.", "Some marca e sem marca e tire do total: o que sobra são as anônimas."]},
+         "texto": ["Troque o filtro para \"nêo corresponde\" à mesma regex. Anote de novo.", "Some marca e sem marca e tire do total: o que sobra sêo as anônimas."]},
         {"titulo": "O registro", "sub": "data e números",
-         "texto": ["Guarde os números numa planilha com a data da janela. Daqui a quatro semanas você compara a mesma janela de 28 dias.", "Sem o registro, a melhora vira impressão pessoal."],
+         "texto": ["Guarde os números numa planilha com a data da janela. Daqui a quatro semanas você compara a mesma janela de 28 dias.", "Sem o registro, a melhora vira impressêo pessoal."],
          "exemplo": {"rot": "No ARCKHÉ (base de 25/08 a 21/09/2026)", "texto": "O ARCKHÉ AI teve 787 cliques e CTR de 34%. Parecia ótimo. Mas 639 de 647 cliques das buscas principais eram de marca; as buscas genéricas somavam 8 cliques e 72 impressões."}}
       ]
     },
@@ -54,14 +54,14 @@
       "sub": "Troque o que está entre < > pelo seu.",
       "blocos": [
         {"rot": "Regex da marca (filtro de Consulta, regex personalizada)", "icone": "lupa",
-         "conteudo": "<seunome>|<seusite>|<seu site>|<erro comum de digitação>\n\n# exemplo do ARCKHÉ: qualquer busca que contenha a palavra\nARCKHÉ"},
+         "conteudo": "<seunome>|<seusite>|<seu site>|<erro comum de digitaçêo>\n\n# exemplo do ARCKHÉ: qualquer busca que contenha a palavra\nARCKHÉ"},
         {"rot": "Planilha da linha de base (modelo)", "icone": "lista",
-         "conteudo": "| janela | total (cliques/impr.) | marca | sem marca | anônimas | CTR | posição |\n|---|---|---|---|---|---|---|\n| <dd/mm> a <dd/mm> | <c>/<i> | <c>/<i> | <c>/<i> | <c>/<i> | <%> | <n> |"}
+         "conteudo": "| janela | total (cliques/impr.) | marca | sem marca | anônimas | CTR | posiçêo |\n|---|---|---|---|---|---|---|\n| <dd/mm> a <dd/mm> | <c>/<i> | <c>/<i> | <c>/<i> | <c>/<i> | <%> | <n> |"}
       ],
       "saida": {
         "selo": "real",
         "abas": [
-          {"rot": "Base do ARCKHÉ (relatório de 23/09/2026)", "html": "<table><tr><th>propriedade</th><th>cliques</th><th>impressões</th><th>CTR</th><th>posição</th></tr><tr><td>ARCKHÉ AI</td><td>787</td><td>2.301</td><td>34%</td><td>5,2</td></tr><tr><td>ARCKHÉ.pro</td><td>42</td><td>649</td><td>6,5%</td><td>8,5</td></tr></table><p>Janela de 28 dias, 25/08 a 21/09/2026. Nas buscas principais, 639 de 647 cliques eram de marca. Buscas genéricas: 8 cliques e 72 impressões.</p>"},
+          {"rot": "Base do ARCKHÉ (relatório de 23/09/2026)", "html": "<table><tr><th>propriedade</th><th>cliques</th><th>impressões</th><th>CTR</th><th>posiçêo</th></tr><tr><td>ARCKHÉ AI</td><td>787</td><td>2.301</td><td>34%</td><td>5,2</td></tr><tr><td>ARCKHÉ.pro</td><td>42</td><td>649</td><td>6,5%</td><td>8,5</td></tr></table><p>Janela de 28 dias, 25/08 a 21/09/2026. Nas buscas principais, 639 de 647 cliques eram de marca. Buscas genéricas: 8 cliques e 72 impressões.</p>"},
           {"rot": "Como ler", "html": "<ul><li><b>CTR de 34%</b> é alto porque quem busca o nome clica no próprio site.</li><li><b>8 cliques sem marca</b> em 28 dias: esse é o ponto de partida real.</li><li>Meta da base: medir só o sem marca, porque a marca domina o total e esconde o efeito das páginas novas.</li></ul>"}
         ]
       }
@@ -72,30 +72,30 @@
       "sub": "Uma tarde, tudo no painel.",
       "exercicios": [
         {"id": "e1", "titulo": "E1 · Os números de 28 dias", "min": "20 min",
-         "texto": "No Search Console, anote cliques, impressões, CTR e posição dos últimos 28 dias, com as datas da janela.",
+         "texto": "No Search Console, anote cliques, impressões, CTR e posiçêo dos últimos 28 dias, com as datas da janela.",
          "pronto": "a planilha tem uma linha com as datas da janela e os quatro números do total."},
         {"id": "e2", "titulo": "E2 · Marca, sem marca e anônimas", "min": "30 min",
-         "texto": "Escreva a regex da sua marca, aplique \"corresponde\" e \"não corresponde\" e calcule as anônimas.",
+         "texto": "Escreva a regex da sua marca, aplique \"corresponde\" e \"nêo corresponde\" e calcule as anônimas.",
          "pronto": "a linha tem os três baldes preenchidos, e marca + sem marca + anônimas dá o total."}
       ]
     },
     {
       "tipo": "quiz",
       "titulo": "Teste o que aprendeu",
-      "sub": "A explicação aparece depois da sua resposta.",
+      "sub": "A explicaçêo aparece depois da sua resposta.",
       "perguntas": [
-        {"p": "O site tem CTR de 34% e posição média 5,2. O SEO está funcionando?",
-         "opcoes": ["Sim, CTR alto prova que funciona.", "Não dá para saber sem separar a marca: quem busca o seu nome clica no seu site.", "Não, CTR acima de 30% é erro.", "Só se a posição for 1."],
+        {"p": "O site tem CTR de 34% e posiçêo média 5,2. O SEO está funcionando?",
+         "opcoes": ["Sim, CTR alto prova que funciona.", "Nêo dá para saber sem separar a marca: quem busca o seu nome clica no seu site.", "Nêo, CTR acima de 30% é erro.", "Só se a posiçêo for 1."],
          "certa": 1, "explica": "No ARCKHÉ, CTR de 34% convivia com 8 cliques sem marca em 28 dias. O total mistura quem já te conhecia.", "ref": "passos", "cert": true},
-        {"p": "Por que marca + sem marca não fecha com o total?",
-         "opcoes": ["Erro do painel.", "As consultas raras ficam escondidas da tabela, mas entram no total: são as anônimas.", "Porque o Bing soma junto.", "Porque o CTR é arredondado."],
+        {"p": "Por que marca + sem marca nêo fecha com o total?",
+         "opcoes": ["Erro do painel.", "As consultas raras ficam escondidas da tabela, mas entram no total: sêo as anônimas.", "Porque o Bing soma junto.", "Porque o CTR é arredondado."],
          "certa": 1, "explica": "O Google anonimiza consultas raras. Elas contam no total e somem do filtro por consulta.", "ref": "diagrama"},
         {"p": "O que entra na regex da marca?",
-         "opcoes": ["Só o domínio exato.", "Nome, domínio, variações e erros de digitação comuns.", "As palavras do seu assunto.", "Os nomes dos concorrentes."],
-         "certa": 1, "explica": "Quem digita \"ARCKHÉ clube\" está procurando a marca. Se a variação fica de fora, a marca vaza para o balde sem marca e infla o número.", "ref": "codigo"},
+         "opcoes": ["Só o domínio exato.", "Nome, domínio, variações e erros de digitaçêo comuns.", "As palavras do seu assunto.", "Os nomes dos concorrentes."],
+         "certa": 1, "explica": "Quem digita \"ARCKHÉ clube\" está procurando a marca. Se a variaçêo fica de fora, a marca vaza para o balde sem marca e infla o número.", "ref": "codigo"},
         {"p": "Para comparar daqui a um mês, o que você precisa guardar?",
          "opcoes": ["Uma captura de tela do gráfico.", "A data da janela e os números dos três baldes, na mesma janela de 28 dias.", "Só o total de cliques.", "Nada: o painel guarda para sempre."],
-         "certa": 1, "explica": "Mesma janela, mesmos baldes. E o painel não guarda para sempre: o histórico some em cerca de 16 meses (aula 8).", "ref": "passos"}
+         "certa": 1, "explica": "Mesma janela, mesmos baldes. E o painel nêo guarda para sempre: o histórico some em cerca de 16 meses (aula 8).", "ref": "passos"}
       ]
     },
     {
@@ -111,7 +111,7 @@
       "tipo": "links",
       "titulo": "Para ir além",
       "links": [
-        {"t": "Método ARCKHÉSEO, etapa 3: medição que separa a marca", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/METODO.md", "icone": "arquivo"},
+        {"t": "Método ARCKHÉSEO, etapa 3: mediçêo que separa a marca", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/docs/METODO.md", "icone": "arquivo"},
         {"t": "Search Console: relatório de desempenho (ajuda do Google)", "href": "https://support.google.com/webmasters/answer/7576553", "icone": "grafico"},
         {"t": "Área ARCKHÉSEO no Eventos", "href": "https://eventos.ARCKHÉ.pro/ARCKHÉseo/", "icone": "camadas"}
       ]

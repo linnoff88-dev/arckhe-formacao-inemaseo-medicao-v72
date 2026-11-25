@@ -137,7 +137,7 @@
         {
           "rot": "Conversion event with the source page (gtag, template)",
           "icone": "terminal",
-          "conteudo": "document.querySelector('<seletor do botão>').addEventListener('click', function () {\n  gtag('event', '<entrar_comunidade>', { pagina_origem: location.pathname });\n});"
+          "conteudo": "document.querySelector('<seletor do botêo>').addEventListener('click', function () {\n  gtag('event', '<entrar_comunidade>', { pagina_origem: location.pathname });\n});"
         },
         {
           "rot": "Monthly log (template)",

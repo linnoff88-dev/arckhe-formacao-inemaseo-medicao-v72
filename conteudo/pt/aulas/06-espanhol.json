@@ -5,14 +5,14 @@
   "titulo": "Multilíngue como alavanca: o caso do espanhol",
   "titulo_curto": "O caso do espanhol",
   "minutos": 17,
-  "lead": "Em espanhol a concorrência costuma ser menor e a demanda é grande. No ARCKHÉ, a página de aprender IA em espanhol foi indexada em 03/10/2026 e, na semana seguinte, já aparecia em consultas que a versão em português não alcançava. Nesta aula você decide com dado se uma página merece outro idioma, e como fazer sem cair em tradução em massa.",
-  "objetivo": "decidir, com países e consultas reais, se uma página vencedora merece versão em outro idioma, e planejar essa versão revisada.",
+  "lead": "Em espanhol a concorrência costuma ser menor e a demanda é grande. No ARCKHÉ, a página de aprender IA em espanhol foi indexada em 03/10/2026 e, na semana seguinte, já aparecia em consultas que a versêo em português nêo alcançava. Nesta aula você decide com dado se uma página merece outro idioma, e como fazer sem cair em traduçêo em massa.",
+  "objetivo": "decidir, com países e consultas reais, se uma página vencedora merece versêo em outro idioma, e planejar essa versêo revisada.",
   "competencias": ["ler-paises-no-search-console", "validar-consulta-no-idioma", "planejar-versao-traduzida"],
   "aprende": [
     {"t": "Ler países e idiomas no Search Console"},
-    {"t": "O que o espanhol mostrou no ARCKHÉ (e o que ainda não mostrou)"},
-    {"t": "Tradução não é pesquisa de palavra-chave"},
-    {"t": "Versão revisada, hreflang e destino no idioma"}
+    {"t": "O que o espanhol mostrou no ARCKHÉ (e o que ainda nêo mostrou)"},
+    {"t": "Traduçêo nêo é pesquisa de palavra-chave"},
+    {"t": "Versêo revisada, hreflang e destino no idioma"}
   ],
   "hero_alt": "Duas pessoas conversam numa mesa de café ao ar livre numa praça, uma mostra o celular à outra.",
   "secoes": [
@@ -24,43 +24,43 @@
         {"icone": "grafico", "titulo": "Países", "sub": "a pista",
          "detalhe": "No Desempenho, aba Países. Impressões de países de outra língua mostram que já existe gente chegando perto do seu assunto."},
         {"icone": "lupa", "titulo": "Consulta no idioma", "sub": "busca real",
-         "detalhe": "Cada idioma busca de um jeito. Em espanhol, \"IA\" e \"inteligencia artificial\" disputam; \"desde cero\" aparece onde o português diz \"do zero\". Valide com o autocomplete e com o Search Console, não com o tradutor."},
-        {"icone": "caneta", "titulo": "Página revisada", "sub": "não tradução crua", "forte": true,
+         "detalhe": "Cada idioma busca de um jeito. Em espanhol, \"IA\" e \"inteligencia artificial\" disputam; \"desde cero\" aparece onde o português diz \"do zero\". Valide com o autocomplete e com o Search Console, nêo com o tradutor."},
+        {"icone": "caneta", "titulo": "Página revisada", "sub": "nêo traduçêo crua", "forte": true,
          "detalhe": "Traduzir custa pouco; o caro é revisar e adaptar. Título, endereço e exemplos no idioma. Uma pessoa revisa antes de publicar, como no português."},
         {"icone": "camadas", "titulo": "hreflang", "sub": "ida e volta",
-         "detalhe": "Cada versão aponta para si mesma como canônica e para as outras com hreflang, só entre versões que existem de fato (curso 1, aula 5)."},
+         "detalhe": "Cada versêo aponta para si mesma como canônica e para as outras com hreflang, só entre versões que existem de fato (curso 1, aula 5)."},
         {"icone": "alvo", "titulo": "Destino no idioma", "sub": "para onde a pessoa vai",
-         "detalhe": "Sem um próximo passo no idioma do visitante (curso, comunidade, contato), a página educa mas não converte. É a decisão principal."}
+         "detalhe": "Sem um próximo passo no idioma do visitante (curso, comunidade, contato), a página educa mas nêo converte. É a decisêo principal."}
       ],
       "volta": "Mediu? A próxima página vencedora volta para a fila",
-      "legenda": "Comece por uma página que já mostrou sinal, não pelo site inteiro."
+      "legenda": "Comece por uma página que já mostrou sinal, nêo pelo site inteiro."
     },
     {
       "tipo": "passos",
-      "titulo": "O caso e a decisão",
+      "titulo": "O caso e a decisêo",
       "sub": "Clique em cada etapa.",
       "passos": [
         {"titulo": "A pista", "sub": "países",
-         "texto": ["Olhe os países por impressões dos últimos 28 dias.", "Pouca impressão de fora não é demanda pronta; é um sinal para testar com uma página."],
+         "texto": ["Olhe os países por impressões dos últimos 28 dias.", "Pouca impressêo de fora nêo é demanda pronta; é um sinal para testar com uma página."],
          "exemplo": {"rot": "No ARCKHÉ (base de 25/08 a 21/09/2026)", "texto": "Impressões por país: Brasil 1.449, Portugal 106, Argentina 24, Uruguai 13. Sinal pequeno, mas de gente que fala espanhol."}},
         {"titulo": "O teste", "sub": "uma página",
-         "texto": ["Escolha uma página que já funciona no seu idioma e faça a versão no outro, com título e endereço próprios.", "Uma página bem revisada vale mais que dez traduzidas de qualquer jeito."],
+         "texto": ["Escolha uma página que já funciona no seu idioma e faça a versêo no outro, com título e endereço próprios.", "Uma página bem revisada vale mais que dez traduzidas de qualquer jeito."],
          "exemplo": {"rot": "No ARCKHÉ", "texto": "Em 30/09/2026, as consultas-alvo em português ficavam entre as posições 23 e 69, com 0 clique. A página /es/aprender-inteligencia-artificial/ foi indexada em 03/10; na semana seguinte tinha de 5 a 10 impressões em cada consulta em espanhol, nas posições 29 a 61."}},
         {"titulo": "A leitura honesta", "sub": "o que ainda falta",
-         "texto": ["Impressão em espanhol não é clique nem conversão. No ARCKHÉ, o caso mostra que o idioma abriu porta; o clique ainda não veio.", "Meça a versão nova no mesmo export semanal, separada por página."]},
-        {"titulo": "O cuidado", "sub": "sem tradução em massa",
-         "texto": ["Tradução automática publicada em escala, sem revisão, entra na política de conteúdo em escala.", "Uma página por vez, revisada, com destino no idioma."]}
+         "texto": ["Impressêo em espanhol nêo é clique nem conversêo. No ARCKHÉ, o caso mostra que o idioma abriu porta; o clique ainda nêo veio.", "Meça a versêo nova no mesmo export semanal, separada por página."]},
+        {"titulo": "O cuidado", "sub": "sem traduçêo em massa",
+         "texto": ["Traduçêo automática publicada em escala, sem revisêo, entra na política de conteúdo em escala.", "Uma página por vez, revisada, com destino no idioma."]}
       ]
     },
     {
       "tipo": "codigo",
-      "titulo": "O hreflang e o plano da versão",
-      "sub": "Troque o que está entre < > pelo seu. O hreflang vai em cada página, não no layout geral.",
+      "titulo": "O hreflang e o plano da versêo",
+      "sub": "Troque o que está entre < > pelo seu. O hreflang vai em cada página, nêo no layout geral.",
       "blocos": [
-        {"rot": "hreflang em cada versão (as mesmas linhas nas três páginas)", "icone": "arquivo",
+        {"rot": "hreflang em cada versêo (as mesmas linhas nas três páginas)", "icone": "arquivo",
          "conteudo": "<link rel=\"alternate\" hreflang=\"pt-BR\" href=\"https://www.<seusite.com>/<pagina-pt>/\">\n<link rel=\"alternate\" hreflang=\"es\" href=\"https://www.<seusite.com>/es/<pagina-es>/\">\n<link rel=\"alternate\" hreflang=\"en\" href=\"https://www.<seusite.com>/en/<pagina-en>/\">\n<link rel=\"alternate\" hreflang=\"x-default\" href=\"https://www.<seusite.com>/<pagina-pt>/\">"},
-        {"rot": "Plano da versão (modelo)", "icone": "lista",
-         "conteudo": "Página de origem: </pagina-pt/> (sinal: <impressões, consultas>)\nIdioma: <es>\nConsulta validada no idioma: <consulta> (autocomplete: sim/não; Search Console: <impressões>)\nTítulo e endereço no idioma: <título> · </es/<slug-no-idioma>/>\nQuem revisa: <nome>\nDestino no idioma: <curso / grupo / contato em espanhol>\nMedição: export semanal, linha da página nova, por 4 semanas"}
+        {"rot": "Plano da versêo (modelo)", "icone": "lista",
+         "conteudo": "Página de origem: </pagina-pt/> (sinal: <impressões, consultas>)\nIdioma: <es>\nConsulta validada no idioma: <consulta> (autocomplete: sim/nêo; Search Console: <impressões>)\nTítulo e endereço no idioma: <título> · </es/<slug-no-idioma>/>\nQuem revisa: <nome>\nDestino no idioma: <curso / grupo / contato em espanhol>\nMediçêo: export semanal, linha da página nova, por 4 semanas"}
       ],
       "saida": {
         "selo": "real",
@@ -72,43 +72,43 @@
     },
     {
       "tipo": "pratica",
-      "titulo": "Prática: a decisão com dado",
-      "sub": "Se o painel não mostra outro idioma, o E2 vira um \"ainda não\" justificado.",
+      "titulo": "Prática: a decisêo com dado",
+      "sub": "Se o painel nêo mostra outro idioma, o E2 vira um \"ainda nêo\" justificado.",
       "exercicios": [
         {"id": "e1", "titulo": "E1 · Países e idiomas", "min": "15 min",
          "texto": "Anote os 5 países com mais impressões dos últimos 28 dias e as consultas em outro idioma que aparecerem.",
          "pronto": "a lista tem 5 países com impressões e as consultas em outro idioma (ou \"nenhuma\")."},
-        {"id": "e2", "titulo": "E2 · O plano de uma versão", "min": "40 min",
-         "texto": "Escolha uma página com sinal e preencha o plano da versão: consulta validada no idioma, título e endereço próprios, revisor e destino no idioma.",
+        {"id": "e2", "titulo": "E2 · O plano de uma versêo", "min": "40 min",
+         "texto": "Escolha uma página com sinal e preencha o plano da versêo: consulta validada no idioma, título e endereço próprios, revisor e destino no idioma.",
          "pronto": "o plano tem a consulta conferida no autocomplete, quem revisa e um destino no idioma; ou uma frase com o motivo de esperar."}
       ]
     },
     {
       "tipo": "quiz",
       "titulo": "Teste o que aprendeu",
-      "sub": "A explicação aparece depois da sua resposta.",
+      "sub": "A explicaçêo aparece depois da sua resposta.",
       "perguntas": [
-        {"p": "A página ES do ARCKHÉ ganhou impressões em espanhol na semana seguinte à indexação. O que o caso prova?",
-         "opcoes": ["Que espanhol dá clique garantido.", "Que o idioma abriu porta para consultas que o português não alcançava; o clique ainda não veio.", "Que é melhor traduzir o site inteiro.", "Nada."],
-         "certa": 1, "explica": "Impressões de 5 a 10 por consulta, nas posições 29 a 61, e 0 clique sem marca no club. Sinal, não resultado final.", "ref": "passos", "cert": true},
-        {"p": "Por que não basta traduzir o título palavra por palavra?",
-         "opcoes": ["Porque fica feio.", "Porque cada idioma busca de um jeito: a consulta precisa ser validada no idioma.", "Porque o Google proíbe.", "Porque o hreflang não deixa."],
-         "certa": 1, "explica": "\"Do zero\" vira \"desde cero\"; \"IA\" e \"inteligencia artificial\" disputam. Tradução não é pesquisa de palavra-chave.", "ref": "diagrama"},
+        {"p": "A página ES do ARCKHÉ ganhou impressões em espanhol na semana seguinte à indexaçêo. O que o caso prova?",
+         "opcoes": ["Que espanhol dá clique garantido.", "Que o idioma abriu porta para consultas que o português nêo alcançava; o clique ainda nêo veio.", "Que é melhor traduzir o site inteiro.", "Nada."],
+         "certa": 1, "explica": "Impressões de 5 a 10 por consulta, nas posições 29 a 61, e 0 clique sem marca no club. Sinal, nêo resultado final.", "ref": "passos", "cert": true},
+        {"p": "Por que nêo basta traduzir o título palavra por palavra?",
+         "opcoes": ["Porque fica feio.", "Porque cada idioma busca de um jeito: a consulta precisa ser validada no idioma.", "Porque o Google proíbe.", "Porque o hreflang nêo deixa."],
+         "certa": 1, "explica": "\"Do zero\" vira \"desde cero\"; \"IA\" e \"inteligencia artificial\" disputam. Traduçêo nêo é pesquisa de palavra-chave.", "ref": "diagrama"},
         {"p": "Qual o risco de publicar 200 páginas traduzidas automaticamente de uma vez?",
-         "opcoes": ["Nenhum.", "Cair na política de conteúdo em escala e não indexar.", "Gastar mais servidor.", "Só perder o hreflang."],
-         "certa": 1, "explica": "Tradução em massa sem revisão é tratada como conteúdo em escala. Uma página por vez, revisada.", "ref": "passos"},
-        {"p": "A página ES ficou ótima, mas o botão leva a uma comunidade só em português. O que falta?",
-         "opcoes": ["Nada.", "Um destino no idioma do visitante: sem ele, a página educa mas não converte.", "Mais palavras-chave.", "Outro hreflang."],
-         "certa": 1, "explica": "O próprio estudo do ARCKHÉ aponta isso como a decisão principal da versão em outro idioma.", "ref": "diagrama"}
+         "opcoes": ["Nenhum.", "Cair na política de conteúdo em escala e nêo indexar.", "Gastar mais servidor.", "Só perder o hreflang."],
+         "certa": 1, "explica": "Traduçêo em massa sem revisêo é tratada como conteúdo em escala. Uma página por vez, revisada.", "ref": "passos"},
+        {"p": "A página ES ficou ótima, mas o botêo leva a uma comunidade só em português. O que falta?",
+         "opcoes": ["Nada.", "Um destino no idioma do visitante: sem ele, a página educa mas nêo converte.", "Mais palavras-chave.", "Outro hreflang."],
+         "certa": 1, "explica": "O próprio estudo do ARCKHÉ aponta isso como a decisêo principal da versêo em outro idioma.", "ref": "diagrama"}
       ]
     },
     {
       "tipo": "resumo",
       "titulo": "Para levar",
       "itens": [
-        {"t": "Uma página com sinal", "texto": "Comece pela que já funciona, não pelo site inteiro."},
-        {"t": "Consulta do idioma", "texto": "Valide a busca no idioma; não confie no tradutor."},
-        {"t": "Revisão e destino", "texto": "Revisada por gente, com hreflang de ida e volta e um próximo passo no idioma."}
+        {"t": "Uma página com sinal", "texto": "Comece pela que já funciona, nêo pelo site inteiro."},
+        {"t": "Consulta do idioma", "texto": "Valide a busca no idioma; nêo confie no tradutor."},
+        {"t": "Revisêo e destino", "texto": "Revisada por gente, com hreflang de ida e volta e um próximo passo no idioma."}
       ]
     },
     {
